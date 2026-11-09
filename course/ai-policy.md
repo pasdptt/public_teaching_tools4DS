@@ -1,11 +1,13 @@
-# AI-use policy [P]
+# AI-use policy
+
+**Status:** decided 9 November 2026 ([decision log](../docs/decisions.md)).
 
 Required work **never depends** on any AI tool or paid API. AI assistance is allowed where it supports learning and can be verified.
 
 | Context | Allowed? | Conditions |
 |---|---|---|
-| **Labs and project** | **Yes**: code completion, explanation, debugging, including Colab's built-in assistant where your account offers it (decision Q-AI1) | 1. Complete the **AI-use log** in every submission. 2. You must be able to **explain any submitted cell**; this is checked in the project oral defence and by spot checks. 3. Do not paste non-public data or other students' work into AI tools. 4. Fabricated outputs, results or citations are academic misconduct. |
-| **AI-audit tasks** (labs L1, L3, L8, L12) | **Required** | You critique instructor-supplied AI-generated code that contains planted errors (leakage, sentinel values, a wrong loss). The skill being taught is verification, not prompting. |
+| **Labs and project** | **Yes**: code completion, explanation, debugging, including Colab's built-in assistant where your account offers it | 1. Complete the **AI-use log** in every submission. 2. You must be able to **explain any submitted cell**; this is checked in the random-member project Q&A and by spot checks. 3. Do not paste non-public data or other students' work into AI tools. 4. Fabricated outputs, results or citations are academic misconduct. |
+| **AI-audit tasks** (Lab 1, graded lab G1, Lab 6, graded lab G5) | **Required** | You critique instructor-supplied AI-generated code that contains planted errors (leakage, sentinel values, a wrong loss). The skill being taught is verification, not prompting. |
 | **Midterm and final examinations** | **No** | In person, with no AI tools and no internet. |
 
 ## The AI-use log

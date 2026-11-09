@@ -1,27 +1,35 @@
-# Schedule (15 teaching weeks; examinations in the university examination periods) [P]
+# Schedule: 12 teaching weeks + 3 adjustment weeks
 
-Every week has a 2-hour lecture, a 3-hour lab and 5 hours of independent work. **Status** shows production progress: *Pilot built* means the module is complete and awaiting review; *Planned* means the structure exists but the content does not yet.
+**Status:** decided 9 November 2026 ([decision log](../docs/decisions.md)). This plan is used informally this term; the formal TQF3 revision is deferred.
 
-| Week | Module | Topic | Lab | Assessment and deadlines | Status |
-|---|---|---|---|---|---|
-| 1 | [w01-colab-workflow](../modules/w01-colab-workflow/) | Reproducible Colab workflow; responsible AI-assisted coding | L1 (pass/fail) | — | Planned |
-| 2 | [w02-statistical-computing-sql](../modules/w02-statistical-computing-sql/) | Statistical computing refresher with Python and SQL | L2 | — | Planned |
-| 3 | [w03-evaluation-leakage](../modules/w03-evaluation-leakage/) | Evaluation and leakage | L3 | — | Planned |
-| 4 | [w04-selection-vs-extraction](../modules/w04-selection-vs-extraction/) | Feature selection vs feature extraction | L4 | **Project M1** (proposal) | Planned |
-| 5 | [w05-w06-pca](../modules/w05-w06-pca/) | PCA I: theory | [L5](../modules/w05-w06-pca/lab/lab05_pca_theory.ipynb) | — | **Pilot built** |
-| 6 | [w05-w06-pca](../modules/w05-w06-pca/) | PCA II: practice | [L6](../modules/w05-w06-pca/lab/lab06_pca_practice.ipynb) | — | **Pilot built** |
-| 7 | [w07-lda-ica](../modules/w07-lda-ica/) | LDA and ICA | L7 | **Project M2** (data audit and baseline) | Planned |
-| 8 | [w08-nonlinear-representations](../modules/w08-nonlinear-representations/) | Nonlinear and learned representations (bounded) | L8 | — | Planned |
-| — | — | **Midterm examination** (covers weeks 1–7) | — | 20% | — |
-| 9 | [w09-w10-networks](../modules/w09-w10-networks/) | Network analysis I | L9 | — | Planned |
-| 10 | [w09-w10-networks](../modules/w09-w10-networks/) | Network analysis II | L10 | — | Planned |
-| 11 | [w11-w12-smoothing-temporal](../modules/w11-w12-smoothing-temporal/) | Smoothing and aggregation | L11 | **Project M3** (method comparison) | Planned |
-| 12 | [w11-w12-smoothing-temporal](../modules/w11-w12-smoothing-temporal/) | Temporal evaluation | L12 | — | Planned |
-| 13 | [w13-hpc-laptop](../modules/w13-hpc-laptop/) | High-performance computing on a laptop | L13 | — | Planned |
-| 14 | [w14-streaming](../modules/w14-streaming/) | Streaming algorithms | L14 | — | Planned |
-| 15 | [w15-project-synthesis](../modules/w15-project-synthesis/) | Presentations and synthesis | — | **Project M4 + M5** | Planned |
-| — | — | **Final examination** (cumulative) | — | 35% | — |
+* **Teaching weeks:** 2-hour lecture, 3-hour lab, 5 hours of independent work.
+* **Adjustment weeks:** absorb holidays and slippage, and host the project presentations.
+* **Examinations:** scheduled by the university outside the 15 weeks.
+* **Week numbers are deliberately kept only in this file.** Module folders are named by topic (`m01`–`m11`), so moving a week means editing this table only.
 
-**Hours check:** 15 × 2 = 30 lecture hours and 15 × 3 = 45 lab hours, matching TQF3; 15 × 5 = 75 self-study hours, matching TQF3.
+| Week | Module | Topic | Lab | Graded? | Project | Status |
+|---|---|---|---|---|---|---|
+| 1 | [m01-workflow-refresher](../modules/m01-workflow-refresher/) | Reproducible Colab workflow; statistical computing refresher; SQL | Lab 1 | practice (AI-audit task) | — | Planned |
+| 2 | [m02-evaluation-leakage](../modules/m02-evaluation-leakage/) | Evaluation and leakage | Lab 2 | **G1** (AI-audit task) | — | Planned |
+| 3 | [m03-selection-extraction](../modules/m03-selection-extraction/) | Feature selection vs feature extraction | Lab 3 | practice | **M1** proposal | Planned |
+| 4 | [m04-pca](../modules/m04-pca/) | PCA I: theory | [Lab 4A](../modules/m04-pca/lab/lab4a_pca_theory.ipynb) | practice | — | **Pilot built** |
+| 5 | [m04-pca](../modules/m04-pca/) | PCA II: practice | [Lab 4B](../modules/m04-pca/lab/lab4b_pca_practice.ipynb) | **G2** | — | **Pilot built** |
+| 6 | [m05-lda-ica](../modules/m05-lda-ica/) | LDA and ICA | Lab 5 | **G3** | **M2** data audit and baseline | Planned |
+| 7 | [m06-nonlinear-representations](../modules/m06-nonlinear-representations/) | Nonlinear and learned representations (bounded) | Lab 6 | practice (AI-audit task) | — | Planned |
+| — | — | **Midterm examination**: covers weeks 1–6 (may be adjusted) | — | 20% | — | — |
+| 8 | [m07-networks](../modules/m07-networks/) | Network analysis I | Lab 7A | practice | — | Planned |
+| 9 | [m07-networks](../modules/m07-networks/) | Network analysis II | Lab 7B | **G4** | — | Planned |
+| 10 | [m08-smoothing-temporal](../modules/m08-smoothing-temporal/) | Smoothing, aggregation and temporal evaluation | Lab 8 | **G5** (AI-audit task) | **M3** method comparison | Planned |
+| 11 | [m09-hpc-laptop](../modules/m09-hpc-laptop/) | High-performance computing on a laptop | Lab 9 | practice | — | Planned |
+| 12 | [m10-streaming](../modules/m10-streaming/) | Streaming algorithms | Lab 10 | **G6** | **M4** report and repository (end of week) | Planned |
+| A1 | — | Adjustment: holiday or catch-up (place where the calendar needs it) | — | — | — | — |
+| A2 | [m11-project-presentations](../modules/m11-project-presentations/) | **Project presentations**: up to 20 teams × 15 min | — | — | **M5** presentation and Q&A | Planned |
+| A3 | — | Adjustment: catch-up, synthesis and final-examination review | — | — | — | — |
+| — | — | **Final examination** (cumulative; includes week 7 onwards) | — | 35% | — | — |
+
+**Hours check:**
+* 12 teaching weeks × 5 h = 60 contact hours.
+* Adding the presentation week (5 h) and the two remaining adjustment weeks used for catch-up and review (10 h) gives the TQF3's 75 contact hours (30 lecture + 45 practice).
+* Independent study stays at 5 h per week.
 
 **Calendar dates** depend on the academic calendar of the term and are to be filled in by the lecturer.

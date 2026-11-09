@@ -1,8 +1,8 @@
-# Week NN — Title
+# Module mNN — Title
 
-| Status | Backlog item | Course CLOs | Blueprint |
-|---|---|---|---|
-| **Planned** | BNN | CLOx | [weekly plan](../../docs/blueprint/03-curriculum-blueprint.md#5-weekly-lecture-and-lab-plan-p) |
+| Status | Graded lab | Backlog item | Course CLOs | When |
+|---|---|---|---|---|
+| **Planned** | No (practice) / **Yes — graded lab Gn** | BNN | CLOx | see the [schedule](../../course/schedule.md) |
 
 ## Objectives
 

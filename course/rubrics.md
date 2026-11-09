@@ -1,17 +1,19 @@
-# Rubrics [P]
+# Rubrics
 
-## Lab rubric (each graded lab /8 → 2%)
+## Lab rubric (graded labs)
 
-| Criterion | Max | 4 Exemplary | 3 Proficient | 2 Developing | 1 Beginning |
-|---|---|---|---|---|---|
-| **Correctness and validity** | 3 | All steps correct; every fitted operation inside validation; baseline and uncertainty reported | A minor error that does not change conclusions; validation correct | A validation flaw or a missing baseline | Leakage or a wrong method invalidates the results |
-| **Reproducibility** | 1 | Restart-and-run-all is clean; seeds set; data through the course registry | Runs after a trivial fix | Runs only out of order | Does not run |
-| **Failure analysis** | 2 | Diagnoses the failure mechanism and demonstrates the fix with evidence | Identifies the failure and its fix | Names a failure without evidence | Missing |
-| **Interpretation** | 2 | Statistically precise; states limitations; separates visualisation from prediction | Mostly precise | Descriptive only | Missing or wrong |
+Each graded lab is marked out of 8 and scaled to 3⅓% of the course mark.
+
+| Criterion | Max | How it is assessed | 4 Exemplary | 3 Proficient | 2 Developing | 1 Beginning |
+|---|---|---|---|---|---|---|
+| **Correctness and validity** | 3 | **Auto-checked** by hidden tests (fitted steps inside validation, correct values, baseline present) | All hidden tests pass | Minor failures that do not change conclusions | A validation flaw or a missing baseline | Leakage or a wrong method |
+| **Reproducibility** | 1 | **Auto-checked**: restart-and-run-all in a fresh kernel; consecutive execution counts | Runs clean | Runs after a trivial fix | Runs only out of order | Does not run |
+| **Failure analysis** | 2 | Written answer, at most 100 words, marked by staff | Diagnoses the mechanism and the fix with evidence | Identifies the failure and its fix | Names a failure without evidence | Missing |
+| **Interpretation** | 2 | Written answer, at most 100 words, marked by staff | Precise; states limitations; separates visualisation from prediction | Mostly precise | Descriptive only | Missing or wrong |
 
 **Converting levels to marks:** level 4 earns the criterion's maximum. Levels 3, 2 and 1 earn ¾, ½ and ¼ of it.
 
-Passing every self-check can earn at most **Proficient** on correctness. **Exemplary** also requires the written answers to meet the model-answer criteria.
+The visible self-checks help students but are not the grading tests. The hidden tests check the same properties on different inputs.
 
 ## Project report rubric (M4, scaled to 8%)
 
@@ -24,12 +26,12 @@ Passing every self-check can earn at most **Proficient** on correctness. **Exemp
 | Reproducibility | 15% | A clean rerun from the README instructions; seeds; pinned environment; no hidden state |
 | Communication | 10% | Claims supported by the reported outputs; clear figures; concise |
 
-Each criterion is scored on the same four levels (exemplary, proficient, developing, beginning).
+## Presentation and Q&A rubric (M5, 4%; team mark)
 
-## Presentation and oral defence rubric (M5, 4%)
+| Criterion | Weight | Evidence |
+|---|---|---|
+| Clarity and structure of the 8-minute talk | 30% | Question, design, results and limitations within time |
+| Code explanation by two randomly chosen members | 50% | Each explains an examiner-chosen cell: what it does, why it is valid, what would break it |
+| Handling of limitations and questions | 20% | Honest limits; answers grounded in the team's outputs |
 
-| Criterion | Weight |
-|---|---|
-| Clarity of the presentation (team) | 25% |
-| Accuracy of answers about the team's own code and methods (individual) | 50% |
-| Handling of limitations and questions (individual) | 25% |
+Individual differentiation comes from the peer-assessment factor (0.8–1.1) and the individual reflection item in the final examination.

@@ -1,6 +1,6 @@
 # Course documents — 040563107 Tools for Statistical Data Science
 
-**Status:** draft for lecturer approval. These documents are the operational version of the [curriculum blueprint](../docs/blueprint/03-curriculum-blueprint.md). Where they change an approved TQF3 element (the weekly schedule, learning outcomes, assessment detail), they remain **proposals** until adopted through the department's TQF revision process. The assessment weights are unchanged.
+**Status:** the lecturer's decisions of 9 November 2026 are applied ([decision log](../docs/decisions.md)). These documents are the operational version of the [curriculum blueprint](../docs/blueprint/03-curriculum-blueprint.md); where they differ from it, the decision log applies. The revised schedule is used informally this term; the formal TQF3 revision is deferred. The TQF3 course description and assessment weights are unchanged.
 
 | Document | For | Contents |
 |---|---|---|

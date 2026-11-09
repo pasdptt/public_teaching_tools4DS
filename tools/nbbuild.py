@@ -3,7 +3,7 @@
 A lab source is a Python file (kept in the private instructor repository) that does:
 
     from nbbuild import Lab
-    lab = Lab("Lab 05 - PCA I", "modules/w05-w06-pca/lab/lab05_pca_theory.ipynb")
+    lab = Lab("Lab 4A - PCA I", "modules/m04-pca/lab/lab4a_pca_theory.ipynb")
     lab.md("## Part 1 ...")
     lab.code("given code that students run")
     lab.task("T1", '''

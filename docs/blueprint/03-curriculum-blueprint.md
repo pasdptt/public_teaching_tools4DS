@@ -1,6 +1,8 @@
 # Curriculum Blueprint — 040563107 Tools for Statistical Data Science (proposal)
 
 **Status:** Proposal for lecturer review. Nothing here changes the approved course requirements until it is adopted through the department's TQF revision process.
+
+> **Superseded in part by the lecturer's decisions of 9 November 2026** — see [`../decisions.md`](../decisions.md). In particular: 12 teaching weeks plus 3 adjustment weeks (not 15); module folders named `m01`–`m11`; about 100 students; six graded labs, all counting; teams of 5–6 (at most 20); live presentations with random-member Q&A; no Spark. The operational documents in [`../../course/`](../../course/) are current; this blueprint is kept as the reasoning record.
 **Builds on:** [`../audit/01-evidence-audit.md`](../audit/01-evidence-audit.md) (issue IDs M·, E·, P·, S·, A·, C·, D·) and [`../audit/02-execution-report.md`](../audit/02-execution-report.md).
 **Labels:** **[V]** verified fact · **[R]** recommendation · **[A]** assumption · **[P]** proposal that changes an approved TQF3 element.
 
@@ -247,7 +249,7 @@ public_teaching_tools4DS/
 
 ### 8.2 Colab-first environment design [R]
 
-1. **Launch.** Each notebook opens directly from GitHub via a Colab badge such as `colab.research.google.com/github/pasdptt/public_teaching_tools4DS/blob/main/modules/w05-pca/lab/lab.ipynb`. No Drive mount is needed.
+1. **Launch.** Each notebook opens directly from GitHub via a Colab badge such as `colab.research.google.com/github/pasdptt/public_teaching_tools4DS/blob/main/modules/m04-pca/lab/lab4a_pca_theory.ipynb`. No Drive mount is needed.
 2. **First cell.** It installs only the pinned course extras (`environment/requirements-colab.txt` and the `tsds` helper at a tagged release). It then runs `tsds.env.check()`, which prints the Python, numpy, pandas, scikit-learn and Matplotlib versions and warns if any is outside the CI-tested range.
 3. **Do not downgrade Colab's core packages.** Downgrading pandas or numpy inside Colab forces runtime restarts and can conflict with Colab's own packages **[A — to be confirmed during the pilot]**. Instead:
    * the course code is written to be compatible with Colab's current core versions;
@@ -323,7 +325,10 @@ A module is done when all of the following hold:
 | B14 | P2 | W13 HPC on a laptop | Benchmarks report time *and* memory; randomised SVD error vs time; runs within the free Colab memory limit | B02 |
 | B15 | P2 | W14 streaming algorithms | Sketch errors compared with exact answers across memory budgets; the Welford stability demonstration | B13 |
 | B16 | P2 | Final examination item bank (private) | Follows the §7.2 blueprint; no item reused verbatim from 2/2563–2/2564 | B10–B15 |
-| B17 | P3 | Optional appendices: Spark local mode, UMAP | Clearly marked optional; not assessed | B14 |
+| B17 | P3 | Optional appendix: UMAP (Spark removed by decision D16) | Clearly marked optional; not assessed | B14 |
+| B19 | **P1** | Hidden-test auto-checking for graded labs G1–G6 (decision D12): hidden tests per graded lab (private), a grader that reruns each submission in a fresh kernel, checks restart-and-run-all and scores the code criteria | Grader reproduces the rubric's auto-checked criteria on the PCA Lab 4B solution (full marks) and on the mutation-test variants (marks lost); runs 100 submissions in under 1 h on a laptop | B02 |
+| B20 | P2 | Openly licensed Thai text corpus for module m06 (decision D19): source, licence verification, CPU-precomputed embeddings, registry entry | Licence verified and recorded; embeddings reproducible from a script; lecturer approval | B03 |
+| B21 | **P0** | Move instructor material to the private repository (decision D1) and enable solution tests in its CI | Private CI runs the solution and mutation tests on every push | Lecturer creates the repository |
 | B18 | P3 | Bilingual glossary (EN–TH) and accessibility review | Glossary covers all assessed terms | B01 (Q-L1) |
 
 ---

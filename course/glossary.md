@@ -1,6 +1,8 @@
 # English–Thai glossary
 
-**Status:** draft. Terms marked **TQF3** are taken verbatim from the approved course description. All other Thai renderings are **proposals for lecturer confirmation** (decision Q-L1). English terms are used in code, notebooks and examination answers.
+**Teaching language (decided 9 Nov 2026):** lectures are delivered in Thai; slides, notebooks and technical terms are in English; examination papers are bilingual.
+
+Terms marked **TQF3** are taken verbatim from the approved course description. All other Thai renderings are **proposals for lecturer confirmation**. English terms are used in code, notebooks and examination answers.
 
 ## Course scope (TQF3 wording)
 
