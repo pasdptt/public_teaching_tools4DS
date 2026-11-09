@@ -1,0 +1,133 @@
+{
+ "notebook": "PCA on spark.ipynb",
+ "mode": "C",
+ "status": "completed",
+ "seconds": 4.4,
+ "code_cells": 17,
+ "error_cells": 13,
+ "skipped_shell_lines": [
+  [
+   1,
+   "!apt-get update"
+  ],
+  [
+   2,
+   "!apt-get install openjdk-8-jdk-headless -qq > /dev/null"
+  ],
+  [
+   2,
+   "!wget -q https://dlcdn.apache.org/spark/spark-3.3.0/spark-3.3.0-bin-hadoop3.tgz"
+  ],
+  [
+   2,
+   "!tar xf spark-3.3.0-bin-hadoop3.tgz"
+  ],
+  [
+   2,
+   "!pip install -q findspark"
+  ],
+  [
+   2,
+   "!pip install pyspark"
+  ],
+  [
+   2,
+   "!pip install -q xlrd"
+  ],
+  [
+   2,
+   "!pip install -q kaggle"
+  ],
+  [
+   2,
+   "!pip install -q kora"
+  ]
+ ],
+ "cells": [
+  {
+   "cell": 1,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 2,
+   "error": "ModuleNotFoundError: No module named 'kora'",
+   "stderr": null
+  },
+  {
+   "cell": 3,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 4,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 5,
+   "error": "NameError: name 'spark' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 6,
+   "error": "NameError: name 'data' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 7,
+   "error": "AssertionError: ",
+   "stderr": null
+  },
+  {
+   "cell": 8,
+   "error": "NameError: name 'pca' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 9,
+   "error": "NameError: name 'pca_model' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 10,
+   "error": "NameError: name 'pca_data' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 11,
+   "error": "NameError: name 'pca_data' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 12,
+   "error": "NameError: name 'pca_model' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 13,
+   "error": "NameError: name 'pca_data' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 14,
+   "error": "NameError: name 'pca_data' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 15,
+   "error": "NameError: name 'pca_data' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 16,
+   "error": "NameError: name 'pandasDF' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 17,
+   "error": null,
+   "stderr": null
+  }
+ ]
+}

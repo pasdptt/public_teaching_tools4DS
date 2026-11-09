@@ -1,0 +1,192 @@
+{
+ "notebook": "FeatureExtraction.ipynb",
+ "mode": "A",
+ "status": "completed",
+ "seconds": 5.9,
+ "code_cells": 32,
+ "error_cells": 23,
+ "skipped_shell_lines": [
+  [
+   1,
+   "!apt-get update"
+  ],
+  [
+   2,
+   "!apt-get upgrade"
+  ],
+  [
+   4,
+   "!pip install -q kaggle"
+  ],
+  [
+   7,
+   "!kaggle datasets download -d uciml/mushroom-classification"
+  ],
+  [
+   8,
+   "!unzip /content/mushroom-classification.zip  && rm /content/mushroom-classification.zip"
+  ]
+ ],
+ "cells": [
+  {
+   "cell": 1,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 2,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 3,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 4,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 5,
+   "error": "ModuleNotFoundError: No module named 'google.colab'",
+   "stderr": null
+  },
+  {
+   "cell": 6,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 7,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 8,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 10,
+   "error": "FileNotFoundError: [Errno 2] No such file or directory: '/content/mushrooms.csv'",
+   "stderr": null
+  },
+  {
+   "cell": 11,
+   "error": "NameError: name 'df' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 12,
+   "error": "NameError: name 'df' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 13,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 14,
+   "error": "NameError: name 'X' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 20,
+   "error": "NameError: name 'X' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 21,
+   "error": "NameError: name 'ReducedData' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 22,
+   "error": "NameError: name 'X_ica' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 25,
+   "error": "NameError: name 'X' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 26,
+   "error": "NameError: name 'X_lda' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 27,
+   "error": "NameError: name 'X_lda' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 29,
+   "error": "NameError: name 'X_lda' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 30,
+   "error": "NameError: name 'X_lda' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 33,
+   "error": "NameError: name 'X' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 34,
+   "error": "NameError: name 'X_lle' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 35,
+   "error": "NameError: name 'X_lle' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 38,
+   "error": "TypeError: TSNE.__init__() got an unexpected keyword argument 'n_iter'",
+   "stderr": null
+  },
+  {
+   "cell": 39,
+   "error": "NameError: name 'X_tsne' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 40,
+   "error": "NameError: name 'X_tsne' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 41,
+   "error": "NameError: name 'X_tsne' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 45,
+   "error": "NameError: name 'X' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 46,
+   "error": "NameError: name 'X_ae' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 47,
+   "error": "NameError: name 'X_ae' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 48,
+   "error": null,
+   "stderr": null
+  }
+ ]
+}

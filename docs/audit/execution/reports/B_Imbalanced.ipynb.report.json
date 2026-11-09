@@ -1,0 +1,136 @@
+{
+ "notebook": "Imbalanced.ipynb",
+ "mode": "B",
+ "status": "completed",
+ "seconds": 11.9,
+ "code_cells": 24,
+ "error_cells": 0,
+ "skipped_shell_lines": [
+  [
+   9,
+   "!pip install imbalanced-learn"
+  ]
+ ],
+ "cells": [
+  {
+   "cell": 6,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 9,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 10,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 12,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 13,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 14,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 15,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 16,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 18,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 19,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 20,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 23,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 24,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 27,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 28,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 29,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 33,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 34,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 36,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 39,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 41,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 43,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 45,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 47,
+   "error": null,
+   "stderr": null
+  }
+ ]
+}

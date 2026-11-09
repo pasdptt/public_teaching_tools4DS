@@ -1,0 +1,192 @@
+{
+ "notebook": "FeatureExtraction.ipynb",
+ "mode": "C",
+ "status": "completed",
+ "seconds": 56.9,
+ "code_cells": 32,
+ "error_cells": 0,
+ "skipped_shell_lines": [
+  [
+   1,
+   "!apt-get update"
+  ],
+  [
+   2,
+   "!apt-get upgrade"
+  ],
+  [
+   4,
+   "!pip install -q kaggle"
+  ],
+  [
+   7,
+   "!kaggle datasets download -d uciml/mushroom-classification"
+  ],
+  [
+   8,
+   "!unzip /content/mushroom-classification.zip  && rm /content/mushroom-classification.zip"
+  ]
+ ],
+ "cells": [
+  {
+   "cell": 1,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 2,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 3,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 4,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 5,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 6,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 7,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 8,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 10,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 11,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 12,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 13,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 14,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 20,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 21,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 22,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 25,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 26,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 27,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 29,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 30,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 33,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 34,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 35,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 38,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 39,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 40,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 41,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 45,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 46,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 47,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 48,
+   "error": null,
+   "stderr": null
+  }
+ ]
+}

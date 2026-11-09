@@ -1,0 +1,155 @@
+{
+ "notebook": "TakehomeMT_2020_2.ipynb",
+ "mode": "C",
+ "status": "completed",
+ "seconds": 4.7,
+ "code_cells": 27,
+ "error_cells": 6,
+ "skipped_shell_lines": [
+  [
+   8,
+   "!pip install -q kaggle"
+  ],
+  [
+   11,
+   "!kaggle competitions download -c titanic"
+  ]
+ ],
+ "cells": [
+  {
+   "cell": 7,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 8,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 9,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 10,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 11,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 12,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 13,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 14,
+   "error": "TypeError: agg function failed [how->mean,dtype->object]",
+   "stderr": null
+  },
+  {
+   "cell": 15,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 16,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 17,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 18,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 20,
+   "error": "ValueError: could not convert string to float: 'Braund, Mr. Owen Harris'",
+   "stderr": null
+  },
+  {
+   "cell": 21,
+   "error": "ValueError: could not convert string to float: 'Braund, Mr. Owen Harris'",
+   "stderr": null
+  },
+  {
+   "cell": 22,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 23,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 25,
+   "error": "NameError: name 'finalDf' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 26,
+   "error": "ValueError: Length of values (1000) does not match length of index (183)",
+   "stderr": null
+  },
+  {
+   "cell": 27,
+   "error": "KeyError: 'target'",
+   "stderr": null
+  },
+  {
+   "cell": 28,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 29,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 30,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 31,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 32,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 33,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 34,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 35,
+   "error": null,
+   "stderr": null
+  }
+ ]
+}

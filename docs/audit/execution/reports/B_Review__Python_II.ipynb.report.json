@@ -1,0 +1,381 @@
+{
+ "notebook": "Review: Python II.ipynb",
+ "mode": "B",
+ "status": "completed",
+ "seconds": 2.3,
+ "code_cells": 74,
+ "error_cells": 0,
+ "skipped_shell_lines": [],
+ "cells": [
+  {
+   "cell": 0,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 1,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 2,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 5,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 7,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 9,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 10,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 12,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 13,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 15,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 17,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 18,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 22,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 24,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 26,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 27,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 28,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 29,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 30,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 32,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 33,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 37,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 39,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 40,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 44,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 46,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 48,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 49,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 50,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 52,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 53,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 54,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 55,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 57,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 58,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 59,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 60,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 62,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 63,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 64,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 65,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 67,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 68,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 69,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 70,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 71,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 73,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 74,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 75,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 78,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 81,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 82,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 83,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 84,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 85,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 86,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 87,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 89,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 91,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 92,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 93,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 94,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 95,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 96,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 97,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 100,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 102,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 104,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 106,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 107,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 111,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 113,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 115,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 117,
+   "error": null,
+   "stderr": null
+  }
+ ]
+}

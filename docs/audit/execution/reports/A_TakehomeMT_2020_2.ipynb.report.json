@@ -1,0 +1,155 @@
+{
+ "notebook": "TakehomeMT_2020_2.ipynb",
+ "mode": "A",
+ "status": "completed",
+ "seconds": 3.8,
+ "code_cells": 27,
+ "error_cells": 21,
+ "skipped_shell_lines": [
+  [
+   8,
+   "!pip install -q kaggle"
+  ],
+  [
+   11,
+   "!kaggle competitions download -c titanic"
+  ]
+ ],
+ "cells": [
+  {
+   "cell": 7,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 8,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 9,
+   "error": "ModuleNotFoundError: No module named 'google.colab'",
+   "stderr": null
+  },
+  {
+   "cell": 10,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 11,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 12,
+   "error": "FileNotFoundError: [Errno 2] No such file or directory: '/content/train.csv'",
+   "stderr": null
+  },
+  {
+   "cell": 13,
+   "error": "NameError: name 'df' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 14,
+   "error": "NameError: name 'df' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 15,
+   "error": "NameError: name 'df' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 16,
+   "error": "NameError: name 'df' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 17,
+   "error": "NameError: name 'df' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 18,
+   "error": "NameError: name 'df' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 20,
+   "error": "NameError: name 'df' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 21,
+   "error": "NameError: name 'df' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 22,
+   "error": "NameError: name 'df' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 23,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 25,
+   "error": "NameError: name 'finalDf' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 26,
+   "error": "NameError: name 'x' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 27,
+   "error": "NameError: name 'finalDf' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 28,
+   "error": "NameError: name 'df_nonan' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 29,
+   "error": "NameError: name 'train_img' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 30,
+   "error": "NameError: name 'train_img90' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 31,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 32,
+   "error": "NameError: name 'train_img90' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 33,
+   "error": "NameError: name 'test_img90' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 34,
+   "error": "NameError: name 'train_img80' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 35,
+   "error": "NameError: name 'test_img80' is not defined",
+   "stderr": null
+  }
+ ]
+}

@@ -1,0 +1,590 @@
+{
+ "notebook": "Review: Python.ipynb",
+ "mode": "C",
+ "status": "completed",
+ "seconds": 3.2,
+ "code_cells": 114,
+ "error_cells": 3,
+ "skipped_shell_lines": [
+  [
+   106,
+   "!python"
+  ],
+  [
+   108,
+   "!python -v"
+  ]
+ ],
+ "cells": [
+  {
+   "cell": 1,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 3,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 5,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 6,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 7,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 8,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 9,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 10,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 11,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 12,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 13,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 14,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 17,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 19,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 22,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 23,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 26,
+   "error": "SyntaxError: invalid character '‘' (U+2018) (3331357379.py, line 2)",
+   "stderr": null
+  },
+  {
+   "cell": 27,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 28,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 31,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 32,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 33,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 34,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 35,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 36,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 37,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 38,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 39,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 40,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 41,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 42,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 43,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 44,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 46,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 47,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 48,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 49,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 50,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 51,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 52,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 53,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 54,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 55,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 57,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 58,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 59,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 60,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 61,
+   "error": "SyntaxError: invalid character '‘' (U+2018) (3670864091.py, line 1)",
+   "stderr": null
+  },
+  {
+   "cell": 62,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 63,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 65,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 66,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 67,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 68,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 69,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 70,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 71,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 72,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 73,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 74,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 76,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 77,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 78,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 79,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 81,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 82,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 83,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 84,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 85,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 86,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 87,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 88,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 90,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 91,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 94,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 96,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 97,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 98,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 99,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 104,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 105,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 106,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 107,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 108,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 110,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 111,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 113,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 115,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 116,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 117,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 118,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 119,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 121,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 122,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 123,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 124,
+   "error": "StatisticsError: harmonic mean does not support negative values",
+   "stderr": null
+  },
+  {
+   "cell": 126,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 127,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 129,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 131,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 132,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 134,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 135,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 137,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 138,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 139,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 141,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 142,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 144,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 145,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 147,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 148,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 150,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 151,
+   "error": null,
+   "stderr": null
+  }
+ ]
+}

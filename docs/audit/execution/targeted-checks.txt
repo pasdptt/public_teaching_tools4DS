@@ -1,0 +1,24 @@
+== C1 graph notebook time parsing (pandas 3.1.1 )
+   produced: ['1630:30:00', '755:55:00', '600:00:00'] | intended: ['16:30:00','7:55:00','6:00:00']
+== C2 AirQualityUCI missing-value code -200 in smoothing lesson
+   rows=9357 T==-200: 366  min T as taught=-200.0  min EMA as taught=-195.3  min EMA with -200->NaN=1.0
+   max |EMA difference| = 205.8 degC
+== C3 Titanic midterm key: rows kept by df.dropna() and test-set uncertainty
+   kept 183/891 rows; test n=27; accuracy 21/27=0.778; 95% Wilson CI [0.59, 0.89]
+   majority-class baseline on kept rows: 0.672
+== C4 PCAinAction: eig vs eigh and projection of uncentred data
+   eig order: [3.66124+0.j 0.03605+0.j] | eigh (ascending): [0.03605 3.66124]
+   mean of projection as taught=3.929+0.000j; centred=-0.000+0.000j (offset only; variance equal: True)
+== C5 Supervised LDA fitted before split (pattern in FeatureExtraction) on pure noise
+   labels are random (true accuracy 0.5): leaked LDA-then-split test acc=0.97; LDA inside CV pipeline acc=0.51
+== C6 Mushroom: same comparison on the course dataset
+   majority baseline: 0.518 | depth-2 tree on raw one-hot: 0.906 | LDA(1)+RF in pipeline: 0.972
+   'odor' alone (one-hot) depth-3 tree: 0.985
+== C7 Dimensionality Reductions: 'regression' tree importances use classification X,y
+   target values seen by the 'regression' model: [0 1]
+== C8 Final exam Q1 data A=(2,3,5,7,60)
+   AM=15.400 GM=6.608 HM=4.192
+== C6b Mushroom on the notebook's own split (test_size=0.30, random_state=101)
+   RF seed 0: as taught (fit-before-split) acc=1.0000 | fitted on train only acc=1.0000
+   RF seed 1: as taught (fit-before-split) acc=1.0000 | fitted on train only acc=1.0000
+   RF seed 2: as taught (fit-before-split) acc=1.0000 | fitted on train only acc=1.0000

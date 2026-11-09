@@ -1,0 +1,56 @@
+{
+ "notebook": "FN_2021_2.ipynb",
+ "mode": "A",
+ "status": "completed",
+ "seconds": 0.8,
+ "code_cells": 9,
+ "error_cells": 1,
+ "skipped_shell_lines": [],
+ "cells": [
+  {
+   "cell": 2,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 10,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 11,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 14,
+   "error": "SyntaxError: invalid character '”' (U+201D) (4238988163.py, line 2)",
+   "stderr": null
+  },
+  {
+   "cell": 16,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 19,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 22,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 26,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 30,
+   "error": null,
+   "stderr": null
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "notebook": "SES.ipynb",
+ "mode": "A",
+ "status": "completed",
+ "seconds": 3.5,
+ "code_cells": 15,
+ "error_cells": 11,
+ "skipped_shell_lines": [],
+ "cells": [
+  {
+   "cell": 0,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 1,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 2,
+   "error": "FileNotFoundError: [Errno 2] No such file or directory: 'Cleandata.csv'",
+   "stderr": null
+  },
+  {
+   "cell": 3,
+   "error": "NameError: name 'df' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 4,
+   "error": "NameError: name 'df' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 5,
+   "error": "NameError: name 'test' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 6,
+   "error": "NameError: name 'train' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 8,
+   "error": "NameError: name 'test' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 10,
+   "error": "NameError: name 'df' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 11,
+   "error": "NameError: name 'test' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 12,
+   "error": "NameError: name 'train' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 13,
+   "error": "NameError: name 'test' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 14,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 15,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 16,
+   "error": "NameError: name 'df' is not defined",
+   "stderr": null
+  }
+ ]
+}

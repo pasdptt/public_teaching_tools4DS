@@ -1,0 +1,156 @@
+{
+ "notebook": "Intro2graphwithPython.ipynb",
+ "mode": "C",
+ "status": "completed",
+ "seconds": 2.2,
+ "code_cells": 29,
+ "error_cells": 15,
+ "skipped_shell_lines": [],
+ "cells": [
+  {
+   "cell": 14,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 16,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 18,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 19,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 20,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 21,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 22,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 23,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 24,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 25,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 27,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 28,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 29,
+   "error": null,
+   "stderr": null
+  },
+  {
+   "cell": 32,
+   "error": "FileNotFoundError: [Errno 2] No such file or directory: '/content/drive/MyDrive/Colab Notebooks/ExampleData/Airlines.csv'",
+   "stderr": null
+  },
+  {
+   "cell": 33,
+   "error": "NameError: name 'data' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 34,
+   "error": "NameError: name 'data' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 35,
+   "error": "NameError: name 'data' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 37,
+   "error": "NameError: name 'data' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 38,
+   "error": "NameError: name 'data' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 39,
+   "error": "NameError: name 'FG' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 40,
+   "error": "NameError: name 'FG' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 41,
+   "error": "NameError: name 'FG' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 42,
+   "error": "NameError: name 'FG' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 43,
+   "error": "NameError: name 'FG' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 44,
+   "error": "NameError: name 'FG' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 46,
+   "error": "NameError: name 'FG' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 47,
+   "error": "NameError: name 'FG' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 48,
+   "error": "NameError: name 'FG' is not defined",
+   "stderr": null
+  },
+  {
+   "cell": 49,
+   "error": null,
+   "stderr": null
+  }
+ ]
+}
