@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tsds"
+version = "0.1.0"
+description = "Helper package for KMUTNB 040563107 Tools for Statistical Data Science (environment check, seeds, licensed dataset registry)"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scikit-learn", "pyyaml"]
+
+[tool.setuptools]
+packages = ["tsds"]
+
+[tool.setuptools.package-data]
+tsds = ["registry.yaml"]

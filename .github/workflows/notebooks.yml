@@ -1,0 +1,29 @@
+name: notebooks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * 1"  # weekly, to catch package drift in the Colab proxy
+
+jobs:
+  execute:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        env: [local, colab-proxy]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pinned environment and course helper
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r environment/requirements-${{ matrix.env }}.txt
+          pip install -e src
+          python -m ipykernel install --user --name python3
+      - name: Execute student notebooks (given code) and structure checks
+        run: pytest -q tests

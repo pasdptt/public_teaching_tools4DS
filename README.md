@@ -2,7 +2,7 @@
 
 KMUTNB, Faculty of Applied Science, Department of Applied Statistics. Third-year Applied Statistics, 3 credits (2-3-5).
 
-**Current stage: evidence audit and curriculum blueprint, awaiting lecturer review.** No teaching materials have been rewritten yet.
+**Current stage:** the evidence audit and curriculum blueprint are complete. The **PCA pilot module** (weeks 5–6) is built and awaiting lecturer review. It was built on the blueprint's recommended defaults for the open decisions in §10.1; see its execution report.
 
 | Document | Contents |
 |---|---|
@@ -10,7 +10,10 @@ KMUTNB, Faculty of Applied Science, Department of Applied Statistics. Third-year
 | [`docs/audit/02-execution-report.md`](docs/audit/02-execution-report.md) | How the existing notebooks were executed (three environments) and what failed |
 | [`docs/blueprint/03-curriculum-blueprint.md`](docs/blueprint/03-curriculum-blueprint.md) | 4. Learning outcomes · 5. Weekly plan · 6. Outcome–topic–assessment map · 7. Assessment, rubrics, AI policy · 8. Repository, datasets, environment · 9. Backlog · 10. Decisions for review |
 | [`tools/audit/`](tools/audit/) | The harness used for the audit, so the execution results can be reproduced |
+| [`modules/w05-w06-pca/`](modules/w05-w06-pca/) | **Pilot module:** lesson plan, lecture outline, two Colab labs, problem set, misconception checks, references, execution report |
+| [`src/tsds/`](src/tsds/) | Course helper package: environment check, course seed, licensed and checksum-verified dataset loader |
+| [`environment/`](environment/), [`tests/`](tests/), [`.github/workflows/`](.github/workflows/) | Pinned environments (local and Colab proxy), notebook tests, CI |
 
 **Workspace:** Google Colab is the primary workspace. Every notebook will open directly from this repository, with a pinned local environment as a fallback (blueprint §8.2).
 
-**Next stage:** the PCA pilot module (blueprint backlog item B04), after lecturer review of blueprint §10.1.
+**Instructor material** (lab solutions, answer keys, summative item bank, lab sources) is deliberately kept out of this public repository (`instructor/` is git-ignored), pending decision Q-R1 on a private home for it.

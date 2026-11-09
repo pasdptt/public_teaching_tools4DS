@@ -1,0 +1,14 @@
+# PROXY for the Google Colab runtime, used in CI until a real snapshot exists.
+# Versions inferred from deprecation warnings stored in the course notebooks' last Colab runs
+# (see docs/audit/02-execution-report.md). At the start of each term, replace this with the
+# output of `pip freeze` from a fresh Colab runtime (environment/colab-snapshot-<term>.txt).
+numpy==2.2.6
+pandas==2.2.3
+scipy<1.17
+scikit-learn==1.6.1
+matplotlib==3.10.*
+pyyaml
+ipykernel
+nbclient
+nbformat
+pytest

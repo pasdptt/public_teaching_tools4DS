@@ -1,0 +1,62 @@
+# Course dataset registry. Every dataset used in required work must have a verified licence,
+# a citation, and either ship with scikit-learn or be downloaded with a SHA-256 checksum.
+# "verified" records how and when the licence was checked.
+
+iris:
+  title: Iris
+  kind: sklearn
+  loader: load_iris
+  source: UCI Machine Learning Repository, dataset 53
+  doi: 10.24432/C56C76
+  creators: R. A. Fisher
+  year: 1936
+  licence: CC BY 4.0
+  verified: "UCI dataset page licence link, 2026-11-09"
+  citation: "Fisher, R. A. (1936). Iris [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C56C76"
+  notes: >
+    scikit-learn's bundled copy is used (no download). Its values differ slightly from the
+    file at archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data (audit M7).
+
+wine:
+  title: Wine
+  kind: sklearn
+  loader: load_wine
+  source: UCI Machine Learning Repository, dataset 109
+  doi: 10.24432/C5PC7J
+  creators: S. Aeberhard; M. Forina
+  year: 1992
+  licence: CC BY 4.0
+  verified: "UCI dataset page licence link, 2026-11-09"
+  citation: "Aeberhard, S. & Forina, M. (1992). Wine [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5PC7J"
+  notes: 13 chemical measurements in different units on 178 wines from 3 cultivars.
+
+digits:
+  title: Optical Recognition of Handwritten Digits (8x8 subset)
+  kind: sklearn
+  loader: load_digits
+  source: UCI Machine Learning Repository, dataset 80
+  doi: 10.24432/C50P49
+  creators: E. Alpaydin; C. Kaynak
+  year: 1998
+  licence: CC BY 4.0
+  verified: "UCI dataset page licence link, 2026-11-09"
+  citation: "Alpaydin, E. & Kaynak, C. (1998). Optical Recognition of Handwritten Digits [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C50P49"
+  notes: scikit-learn bundles 1,797 of the UCI images (8x8 pixels, values 0-16).
+
+air_quality:
+  title: Air Quality (hourly, Italian city, 2004-2005)
+  kind: url_zip_csv
+  url: https://archive.ics.uci.edu/static/public/360/air+quality.zip
+  sha256: d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a
+  member: AirQualityUCI.csv
+  read_csv: {sep: ";", decimal: ","}
+  source: UCI Machine Learning Repository, dataset 360
+  doi: 10.24432/C59K5F
+  creators: S. De Vito
+  year: 2008
+  licence: CC BY 4.0
+  verified: "UCI dataset page licence link, 2026-11-09"
+  citation: "Vito, S. (2008). Air Quality [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C59K5F"
+  notes: >
+    Missing values are coded as -200 (verified in the file: 366 temperature values).
+    The loader returns the raw file; recoding the sentinel is part of the lab.

@@ -1,0 +1,12 @@
+# Local fallback environment (Python 3.12, CPU only). Compile with:
+#   uv pip compile environment/requirements-local.in -p 3.12 -o environment/requirements-local.txt
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+pyyaml
+ipykernel
+nbclient
+nbformat
+pytest
