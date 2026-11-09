@@ -76,7 +76,7 @@ Ten typical student mistakes were injected into the solutions; each targeted sel
 
 | Criterion | Status |
 |---|---|
-| Runs from a clean, documented environment | **Met**, in both pinned environments (§1–2). **Not verified on Colab itself**: Colab is unreachable from the build machine, and the `main`-branch badge links work only after merging. |
+| Runs from a clean, documented environment | **Met**, in both pinned environments (§1–2). The **first-run install path** was also tested: a fresh Colab-proxy environment *without* `tsds` executed both student notebooks' setup cells, which installed `tsds` 0.1.0 from GitHub (with `COURSE_REF` set to the pushed branch for the test), and all given code ran. **Not verified on Colab itself**: Colab is unreachable from the build machine, and the `main`-branch badge links and the default `COURSE_REF = "main"` work only after merging. |
 | Accessible, appropriately licensed data | **Met.** Wine (UCI 109) and Digits (UCI 80) are bundled with scikit-learn and CC BY 4.0, verified on the UCI pages; the rest is synthetic. No Drive, Kaggle or network access is needed to run the labs. |
 | No hidden notebook state | **Met.** Student notebooks are committed without outputs; solutions are tested for strictly sequential execution. |
 | Demonstrates valid evaluation | **Met.** Nested CV, a fixed shared split, baselines (majority class and all features), uncertainty reported as fold standard deviation, and a leakage experiment. |
