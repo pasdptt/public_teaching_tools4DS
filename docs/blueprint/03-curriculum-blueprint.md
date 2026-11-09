@@ -216,6 +216,8 @@ Each criterion uses the four performance levels above.
 
 ### 8.1 Proposed structure of this public repository
 
+> **Implemented** (structure, course documents, module skeletons, CI). See the [repository map](../../README.md#repository-map). One name differs from the plan below: the Colab environment file is `environment/requirements-colab-proxy.txt` until a real Colab snapshot replaces it.
+
 ```
 public_teaching_tools4DS/
 ├── README.md                       course overview, Open-in-Colab index

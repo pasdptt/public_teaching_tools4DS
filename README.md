@@ -1,19 +1,37 @@
-# 040563107 Tools for Statistical Data Science — course revamp
+# 040563107 Tools for Statistical Data Science
 
-KMUTNB, Faculty of Applied Science, Department of Applied Statistics. Third-year Applied Statistics, 3 credits (2-3-5).
+KMUTNB · Faculty of Applied Science · Department of Applied Statistics · third-year B.Sc. Applied Statistics · 3 credits (2-3-5).
 
-**Current stage:** the evidence audit and curriculum blueprint are complete. The **PCA pilot module** (weeks 5–6) is built and awaiting lecturer review. It was built on the blueprint's recommended defaults for the open decisions in §10.1; see its execution report.
+Dimension reduction, PCA, ICA, feature extraction, network analysis, smoothing and aggregation, high-performance computing and streaming algorithms, taught with reproducible Python workflows in **Google Colab**.
 
-| Document | Contents |
+> **Status:** course revamp in progress. The audit, blueprint and course structure are complete. The **PCA module (weeks 5–6) is built as a pilot**; the other modules are structured and planned. Course documents are drafts for lecturer approval: changes to the approved TQF3 are proposals, and the assessment weights are unchanged.
+
+## Students: start here
+
+1. [Getting started](course/getting-started.md): opening labs in Colab, the setup cell, submitting.
+2. [Syllabus](course/syllabus.md) · [Schedule](course/schedule.md) · [Assessment](course/assessment.md) · [Rubrics](course/rubrics.md)
+3. [Project brief](course/project-brief.md) · [AI-use policy](course/ai-policy.md) · [English–Thai glossary](course/glossary.md)
+4. Weekly material: [`modules/`](modules/)
+
+## Repository map
+
+| Path | Contents |
 |---|---|
-| [`docs/audit/01-evidence-audit.md`](docs/audit/01-evidence-audit.md) | 1. Source inventory · 2. Keep/revise/merge/retire/add mapping · 3. Evidence-based issues |
-| [`docs/audit/02-execution-report.md`](docs/audit/02-execution-report.md) | How the existing notebooks were executed (three environments) and what failed |
-| [`docs/blueprint/03-curriculum-blueprint.md`](docs/blueprint/03-curriculum-blueprint.md) | 4. Learning outcomes · 5. Weekly plan · 6. Outcome–topic–assessment map · 7. Assessment, rubrics, AI policy · 8. Repository, datasets, environment · 9. Backlog · 10. Decisions for review |
-| [`tools/audit/`](tools/audit/) | The harness used for the audit, so the execution results can be reproduced |
-| [`modules/w05-w06-pca/`](modules/w05-w06-pca/) | **Pilot module:** lesson plan, lecture outline, two Colab labs, problem set, misconception checks, references, execution report |
-| [`src/tsds/`](src/tsds/) | Course helper package: environment check, course seed, licensed and checksum-verified dataset loader |
-| [`environment/`](environment/), [`tests/`](tests/), [`.github/workflows/`](.github/workflows/) | Pinned environments (local and Colab proxy), notebook tests, CI |
+| [`course/`](course/) | Operational course documents (syllabus, schedule, assessment, rubrics, project brief, AI policy, getting started, glossary) |
+| [`modules/`](modules/) | One folder per week or block: lecture outline, Colab lab(s), exercises, references, execution report |
+| [`src/tsds/`](src/tsds/) | Course helper package: environment check, course seed, licensed and checksum-verified dataset registry |
+| [`datasets/`](datasets/) | Dataset policy and the registry overview (no data files are committed) |
+| [`environment/`](environment/) | Pinned environments: local fallback and Colab proxy |
+| [`tests/`](tests/) | Notebook execution tests and repository-structure tests |
+| [`tools/`](tools/) | Notebook builder (`nbbuild.py`) and the audit harness |
+| [`docs/audit/`](docs/audit/) | Evidence audit of the previous course materials, with execution results |
+| [`docs/blueprint/`](docs/blueprint/) | Curriculum blueprint: outcomes, weekly plan, assessment design, backlog, decisions |
+| [`docs/authoring-guide.md`](docs/authoring-guide.md) | How staff produce a module that meets the definition of done |
 
-**Workspace:** Google Colab is the primary workspace. Every notebook will open directly from this repository, with a pinned local environment as a fallback (blueprint §8.2).
+**Instructor material** (lab sources, solutions, answer keys, examination items) is kept out of this public repository. The `instructor/` folder is git-ignored, pending decision Q-R1 on a private home for it.
 
-**Instructor material** (lab solutions, answer keys, summative item bank, lab sources) is deliberately kept out of this public repository (`instructor/` is git-ignored), pending decision Q-R1 on a private home for it.
+## Staff and reviewers
+
+* Decisions awaiting the lecturer: [blueprint §10.1](docs/blueprint/03-curriculum-blueprint.md#101-decisions-requiring-the-lecturer-with-my-recommendation)
+* Production backlog: [blueprint §9](docs/blueprint/03-curriculum-blueprint.md#9-prioritised-production-backlog-and-acceptance-criteria)
+* CI: [`.github/workflows/notebooks.yml`](.github/workflows/notebooks.yml) runs every test in both pinned environments on each push and weekly.

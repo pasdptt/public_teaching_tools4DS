@@ -1,6 +1,9 @@
 # Weeks 5–6 — Principal Component Analysis (pilot module)
 
-**Course:** 040563107 Tools for Statistical Data Science · **Blueprint reference:** weeks 5–6, backlog B04 · **Status:** pilot, for lecturer review.
+| Status | Backlog item | Course CLOs | Blueprint |
+|---|---|---|---|
+| **Pilot built**: awaiting lecturer review | B04 | CLO1, CLO2, CLO3 | [weekly plan](../../docs/blueprint/03-curriculum-blueprint.md#5-weekly-lecture-and-lab-plan-p) |
+
 **Workspace:** Google Colab (open the labs with the badges below); a pinned local environment is the fallback.
 
 | Material | Link |
