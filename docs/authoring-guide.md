@@ -16,7 +16,7 @@ modules/mNN-<topic>/
 └── EXECUTION-REPORT.md    environments, test results, cross-environment comparison, mutation tests
 ```
 
-**Private material** goes in the instructor repository (currently the git-ignored `instructor/` folder): lab sources, solutions, answer keys and examination items. The public repository never contains solutions.
+**Private material** goes in the private instructor repository: lab sources, solutions, answer keys and examination items. The public repository never contains solutions. To work on a module, clone the private repository into `instructor/` inside your checkout of this repository (access on request from the lecturer); `/instructor` is git-ignored here.
 
 ## 2. Writing a lab: one source, two notebooks
 

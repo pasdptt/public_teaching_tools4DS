@@ -328,7 +328,7 @@ A module is done when all of the following hold:
 | B17 | P3 | Optional appendix: UMAP (Spark removed by decision D16) | Clearly marked optional; not assessed | B14 |
 | B19 | **P1** | Hidden-test auto-checking for graded labs G1–G6 (decision D12): hidden tests per graded lab (private), a grader that reruns each submission in a fresh kernel, checks restart-and-run-all and scores the code criteria | Grader reproduces the rubric's auto-checked criteria on the PCA Lab 4B solution (full marks) and on the mutation-test variants (marks lost); runs 100 submissions in under 1 h on a laptop | B02 |
 | B20 | P2 | Openly licensed Thai text corpus for module m06 (decision D19): source, licence verification, CPU-precomputed embeddings, registry entry | Licence verified and recorded; embeddings reproducible from a script; lecturer approval | B03 |
-| B21 | **P0** | Move instructor material to the private repository (decision D1) and enable solution tests in its CI | Private CI runs the solution and mutation tests on every push | Lecturer creates the repository |
+| B21 | **P0 — done 11 Nov 2026** | Move instructor material to the private repository (decision D1) and enable solution tests in its CI | Private CI runs the solution and mutation tests on every push | Lecturer creates the repository |
 | B18 | P3 | Bilingual glossary (EN–TH) and accessibility review | Glossary covers all assessed terms | B01 (Q-L1) |
 
 ---

@@ -1,5 +1,5 @@
 # Instructor-only material (solutions, answer keys, exam items, lab sources) never goes in this public repository.
-instructor/
+/instructor
 __pycache__/
 *.egg-info/
 .ipynb_checkpoints/

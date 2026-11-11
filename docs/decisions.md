@@ -4,7 +4,7 @@ Decisions taken by the course lecturer on **9 November 2026**, in answer to the 
 
 | ID | Question | Decision | What changed | Follow-up |
 |---|---|---|---|---|
-| D1 (Q-R1) | Where instructor-only material lives | **A new private GitHub repository** | `instructor/` stays git-ignored here | **Lecturer:** create the private repository (e.g. `pasdptt/tools4ds-instructor`) and attach it to a session, so the material can be pushed. It exists only in the temporary build session until then. |
+| D1 (Q-R1) | Where instructor-only material lives | **A private GitHub repository** (created by the lecturer; access on request) | `/instructor` stays git-ignored here; staff clone the private repository into it. **Done 11 Nov 2026:** material moved, and the private repository's own CI runs the solution and mutation tests against this repository | — |
 | D2 (Q-L1) | Teaching language | **Lectures in Thai; slides, notebooks and technical terms in English; bilingual examination papers** | Syllabus, assessment, glossary | Confirm the proposed Thai renderings in the glossary |
 | D3 (Q-A1) | Examination mode | **In person, on paper**: closed book with one A4 sheet; no AI or internet; fresh paper each term | Assessment | — |
 | D4 (Q-D1) | Thai local-government revenue file | **Lecturer to confirm source and licence later**; kept out of public materials until then | None (labs use UCI Wine) | Lecturer sends the source |

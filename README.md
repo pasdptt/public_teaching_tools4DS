@@ -29,7 +29,7 @@ Dimension reduction, PCA, ICA, feature extraction, network analysis, smoothing a
 | [`docs/decisions.md`](docs/decisions.md) | Lecturer decisions (9 Nov 2026); these take precedence over the blueprint |
 | [`docs/authoring-guide.md`](docs/authoring-guide.md) | How staff produce a module that meets the definition of done |
 
-**Instructor material** (lab sources, solutions, answer keys, examination items) is kept out of this public repository. It moves to a private GitHub repository (decision D1); until then the `instructor/` folder is git-ignored.
+**Instructor material** (lab sources, solutions, answer keys, examination items) lives in a **private GitHub repository** (decision D1; access on request). Staff clone it into `instructor/` inside a checkout of this repository; that path is git-ignored here, and the notebook tests then also check the solutions.
 
 **Licence:** code is under the [MIT licence](LICENSE); teaching content is under [CC BY 4.0](LICENSE-CONTENT.md). Datasets keep their own licences.
 
