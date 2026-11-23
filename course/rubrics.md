@@ -13,7 +13,13 @@ Each graded lab is marked out of 8 and scaled to 3⅓% of the course mark.
 
 **Converting levels to marks:** level 4 earns the criterion's maximum. Levels 3, 2 and 1 earn ¾, ½ and ¼ of it.
 
-The visible self-checks help students but are not the grading tests. The hidden tests check the same properties on different inputs.
+The visible self-checks help students but are not the grading tests. The hidden tests check the same properties on different inputs, so hard-coding an answer that passes a self-check does not earn the marks.
+
+**How the two auto-checked criteria are scored.** The auto-checker re-runs each submitted notebook from top to bottom in a fresh Python session, then runs the hidden tests.
+
+* **Correctness (3):** 3 × the share of hidden-test points passed, rounded down to a multiple of 0.25 (so any failed test costs at least 0.25). Each task's tests and their points are listed in the feedback, with the reason any test failed.
+* **Reproducibility (1):** 1 if the fresh run has no errors and the submitted file was run top to bottom (execution counts 1, 2, 3, …); ¾ if the fresh run has no errors but the file was not restarted and run in order before submitting; ½ if exactly one cell fails in the fresh run; ¼ if more cells fail; 0 if the file cannot be opened or is a different lab.
+* Staff review every flagged submission (a changed given or self-check cell, missing task cells, an answer over 100 words, an empty AI-use log) before marks are released.
 
 ## Project report rubric (M4, scaled to 8%)
 

@@ -15,7 +15,7 @@ The weights are unchanged from the TQF3: **practical work 20%, project 25%, midt
 
 * **Marking is designed for about 100 students.**
   * Code tasks are **auto-checked** by hidden tests, alongside the visible self-checks.
-  * A restart-and-run-all check is automated.
+  * A restart-and-run-all check is automated. How both are scored: [lab rubric](rubrics.md#lab-rubric-graded-labs).
   * Short written answers (at most 100 words each) are marked with the [lab rubric](rubrics.md#lab-rubric-graded-labs).
   * Each graded lab is marked out of 8 and scaled to 3⅓%.
 * **All other labs are practice labs.** They are not graded; they have self-checks, and their solutions are discussed in class.

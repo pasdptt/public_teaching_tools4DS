@@ -116,6 +116,7 @@ class Lab:
             "kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"},
             "language_info": {"name": "python"},
             "colab": {"provenance": []},
+            "tsds": {"lab": self.repo_path},  # lets the grader recognise which lab a submission is
         }
         for i, (_, _, s, t) in enumerate(self.cells):
             cell = (s, t)[which].copy()
