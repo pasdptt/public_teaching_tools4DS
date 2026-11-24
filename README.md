@@ -4,7 +4,7 @@ KMUTNB · Faculty of Applied Science · Department of Applied Statistics · thir
 
 Dimension reduction, PCA, ICA, feature extraction, network analysis, smoothing and aggregation, high-performance computing and streaming algorithms, taught with reproducible Python workflows in **Google Colab**.
 
-> **Status:** course revamp in progress. The audit, blueprint and course structure are complete, and the lecturer's decisions of 9 November 2026 are applied ([decision log](docs/decisions.md)): 12 teaching weeks plus 3 adjustment weeks, about 100 students, six graded labs, and teams of 5–6. The **PCA module (m04) is built as a pilot**; the other modules are structured and planned. The revised schedule is used informally this term; the TQF3 description and assessment weights are unchanged.
+> **Status:** course revamp in progress. The audit, blueprint and course structure are complete, and the lecturer's decisions of 9 and 24 November 2026 are applied ([decision log](docs/decisions.md)): 12 teaching weeks plus 3 adjustment weeks, about 100 students, six graded labs, and teams of 5–6. **Week 1 (module m01) is built**, the **PCA module (m04) is built as a pilot** with an auto-checker for its graded lab, and the other modules are structured and planned. The revised schedule is used informally this term; the TQF3 description and assessment weights are unchanged.
 
 ## Students: start here
 

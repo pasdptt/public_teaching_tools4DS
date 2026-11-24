@@ -309,13 +309,13 @@ A module is done when all of the following hold:
 
 | ID | Priority | Item | Acceptance criteria (in addition to §9.1) | Depends on |
 |---|---|---|---|---|
-| B01 | **P0** | Lecturer decisions in §10 | Q-L1, Q-R1, Q-A1, Q-D1 answered in writing | — |
-| B02 | **P0** | Repository skeleton, `tsds` helper (env check, seeds, loaders), CI workflow, Colab badge template | A sample notebook passes CI under both environments; the Colab badge opens and runs it | B01 (Q-R1) |
+| B01 | **P0 — done** (decisions of 9 and 24 Nov 2026, [decision log](../decisions.md)) | Lecturer decisions in §10 | Q-L1, Q-R1, Q-A1, Q-D1 answered in writing | — |
+| B02 | **P0 — done 9 Nov 2026** | Repository skeleton, `tsds` helper (env check, seeds, loaders), CI workflow, Colab badge template | A sample notebook passes CI under both environments; the Colab badge opens and runs it | B01 (Q-R1) |
 | B03 | **P0** | Dataset registry and attribution for the week 2–7 datasets | Licence, citation, size and SHA-256 recorded; the loader fails loudly on a checksum mismatch | B02 |
-| B04 | **P0** | **PCA pilot module (W5–6)**: lesson plan, lecture outline with derivations and worked examples, student lab, separate instructor solution, exercises, misconception checks, assessment items, verified references, execution report | The brief's PCA pilot requirements plus §9.1; corrects M1–M7 and E4 | B02, B03 |
-| B05 | P1 | Course documents: syllabus, schedule, assessment, rubrics (§7.4), AI policy (§7.5), project brief and milestone templates | Lecturer-approved; consistent with the TQF3 weights; TQF3 revision draft prepared | B01 |
+| B04 | **P0 — done 9 Nov 2026** (pilot; awaiting lecturer review) | **PCA pilot module (W5–6)**: lesson plan, lecture outline with derivations and worked examples, student lab, separate instructor solution, exercises, misconception checks, assessment items, verified references, execution report | The brief's PCA pilot requirements plus §9.1; corrects M1–M7 and E4 | B02, B03 |
+| B05 | P1 — done 11 Nov 2026 | Course documents: syllabus, schedule, assessment, rubrics (§7.4), AI policy (§7.5), project brief and milestone templates | Lecturer-approved; consistent with the TQF3 weights; TQF3 revision draft prepared | B01 |
 | B06 | P1 | W3 evaluation and leakage module (includes the imbalance material) | Contains the leakage-on-noise demonstration; metric consistency (fixes E7) | B02 |
-| B07 | P1 | W1–2 workflow and refresher modules (Python + DuckDB SQL) | SQL delivered (C3); sentinel lab (M15) | B02, B03 |
+| B07 | P1 — done 24 Nov 2026 (module m01, week 1) | W1–2 workflow and refresher modules (Python + DuckDB SQL) | SQL delivered (C3); sentinel lab (M15) | B02, B03 |
 | B08 | P1 | W4 selection vs extraction | M12 and M13 fixed; permutation importance on held-out data | B06 |
 | B09 | P1 | W7 LDA and ICA | Ground-truth source separation; Gaussian failure case; LDA inside the pipeline (fixes M8, M10, E1) | B04 |
 | B10 | P1 | Midterm item bank (private) and marking keys | 3 or more variants per item type; keys verified by a second marker | B04, B06, B09 |

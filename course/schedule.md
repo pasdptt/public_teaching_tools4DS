@@ -9,7 +9,7 @@
 
 | Week | Module | Topic | Lab | Graded? | Project | Status |
 |---|---|---|---|---|---|---|
-| 1 | [m01-workflow-refresher](../modules/m01-workflow-refresher/) | Reproducible Colab workflow; statistical computing refresher; SQL | Lab 1 | practice (AI-audit task) | — | Planned |
+| 1 | [m01-workflow-refresher](../modules/m01-workflow-refresher/) | Reproducible Colab workflow; statistical computing refresher; SQL | [Lab 1](../modules/m01-workflow-refresher/lab/lab1_workflow_refresher.ipynb) | practice (AI-audit task) | — | **Built** |
 | 2 | [m02-evaluation-leakage](../modules/m02-evaluation-leakage/) | Evaluation and leakage | Lab 2 | **G1** (AI-audit task) | — | Planned |
 | 3 | [m03-selection-extraction](../modules/m03-selection-extraction/) | Feature selection vs feature extraction | Lab 3 | practice | **M1** proposal | Planned |
 | 4 | [m04-pca](../modules/m04-pca/) | PCA I: theory | [Lab 4A](../modules/m04-pca/lab/lab4a_pca_theory.ipynb) | practice | — | **Pilot built** |

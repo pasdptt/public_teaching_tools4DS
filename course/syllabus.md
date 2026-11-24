@@ -11,7 +11,7 @@
 | Credits | 3 (2-3-5): 30 h lecture, 45 h practice, 75 h self-study | TQF3 |
 | Semester and year | Semester 2, year 3 | TQF3 |
 | Prerequisite / co-requisite | None (TQF3). Linear algebra and introductory statistical inference are **assumed**. | TQF3 |
-| Instructor | Dr. Pasd Putthapipat (TQF3, 2/2563); to be confirmed for the coming term | TQF3 |
+| Instructor | Dr. Pasd Putthapipat | TQF3 |
 | Expected enrolment | About 100 students (lecturer, 9 Nov 2026) | Decision log |
 | Workspace | Google Colab (primary); pinned local Python environment (fallback) | Decision log |
 

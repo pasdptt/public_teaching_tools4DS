@@ -2,6 +2,14 @@
 
 All labs run in **Google Colab** in your browser. You do not need to install anything, mount Google Drive or create a Kaggle account.
 
+## Week 1 checklist
+
+1. Join the course team in **Microsoft Teams** (the lecturer shares the join code). Graded labs are submitted there.
+2. Check that you can sign in to **Google Colab** with a Google account.
+3. Open **[Lab 1](../modules/m01-workflow-refresher/)** in Colab and work through it in the lab session. It is practice (not graded) and has exactly the format of the six graded labs.
+4. Read the [AI-use policy](ai-policy.md) and the [assessment](assessment.md) page.
+5. Start forming a **project team of 5–6** (at most 20 teams); the one-page proposal (M1) is due in week 3 ([project brief](project-brief.md)).
+
 ## Opening a lab
 
 1. Go to the module folder for the week (see the [schedule](schedule.md)) and click **Open in Colab** on the lab.
@@ -23,8 +31,9 @@ All labs run in **Google Colab** in your browser. You do not need to install any
 1. Choose **Runtime → Restart session and run all** (called *Restart and run all* in some Colab versions).
 2. Check that **every cell ran top to bottom without errors**. Notebooks that only work when cells are run out of order receive the lowest reproducibility mark.
 3. Fill in the **AI-use log** at the end (write "None" if you used no AI tool); see the [AI policy](ai-policy.md).
-4. Download the notebook (**File → Download → .ipynb**) and submit it through the course's submission channel *(to be announced by the lecturer)*.
+4. Download the notebook (**File → Download → .ipynb**) and upload it to the lab's assignment in **Microsoft Teams**, then press **Turn in**.
    * Submit the `.ipynb` file itself (not a PDF or a link), saved from **your copy** of the lab notebook.
+   * Late submissions are accepted; a graded lab not submitted by the final cut-off scores 0.
    * Your answers to written questions go after *Your answer:* in each **Q** cell; keep each to 100 words or fewer.
    * Graded labs are marked as described in the [lab rubric](rubrics.md#lab-rubric-graded-labs): your notebook is re-run from top to bottom in a fresh session and checked with hidden tests.
 

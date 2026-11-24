@@ -5,6 +5,7 @@ pandas
 scipy
 scikit-learn
 matplotlib
+duckdb
 pyyaml
 ipykernel
 nbclient

@@ -19,7 +19,8 @@ The weights are unchanged from the TQF3: **practical work 20%, project 25%, midt
   * Short written answers (at most 100 words each) are marked with the [lab rubric](rubrics.md#lab-rubric-graded-labs).
   * Each graded lab is marked out of 8 and scaled to 3⅓%.
 * **All other labs are practice labs.** They are not graded; they have self-checks, and their solutions are discussed in class.
-* **Missing a graded lab:** all six count, so a make-up or excused-absence rule is needed. *To be set by the lecturer under university regulations.*
+* **Late and missed graded labs:** late submissions are accepted; a graded lab that is not submitted by the final cut-off announced in Microsoft Teams scores 0 (decision D22).
+* **Submission:** upload the `.ipynb` file to the lab's assignment in **Microsoft Teams** ([how](getting-started.md#before-you-submit)).
 
 ## Project (25%)
 

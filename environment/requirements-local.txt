@@ -16,6 +16,8 @@ cycler==0.12.1
     # via matplotlib
 debugpy==1.8.22
     # via ipykernel
+duckdb==2.0.1
+    # via -r environment/requirements-local.in
 executing==2.3.0
     # via stack-data
 fastjsonschema==2.22.3

@@ -1,6 +1,6 @@
 # Licence for teaching content
 
-Copyright (c) 2026 Pasd Putthapipat.
+Copyright (c) 2026 Pasd Putthapipat. Prepared for academic purposes (teaching and learning in course 040563107, KMUTNB).
 
 ## What is licensed how
 
