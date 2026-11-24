@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/brand/banner.webp" alt="Statistical Tools: Tools for DS" width="640"></p>
+
 # 040563107 Tools for Statistical Data Science
 
 KMUTNB · Faculty of Applied Science · Department of Applied Statistics · third-year B.Sc. Applied Statistics · 3 credits (2-3-5).
@@ -23,6 +25,7 @@ Dimension reduction, PCA, ICA, feature extraction, network analysis, smoothing a
 | [`datasets/`](datasets/) | Dataset policy and the registry overview (no data files are committed) |
 | [`environment/`](environment/) | Pinned environments: local fallback and Colab proxy |
 | [`tests/`](tests/) | Notebook execution tests and repository-structure tests |
+| [`assets/brand/`](assets/brand/) | Course logo, banner and social-preview image |
 | [`tools/`](tools/) | Notebook builder (`nbbuild.py`) and the audit harness |
 | [`docs/audit/`](docs/audit/) | Evidence audit of the previous course materials, with execution results |
 | [`docs/blueprint/`](docs/blueprint/) | Curriculum blueprint: outcomes, weekly plan, assessment design, backlog, decisions |

@@ -66,7 +66,9 @@ class Lab:
         self.cells = []  # (kind, id, student_cell, solution_cell)
         badge = (f"[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]"
                  f"(https://colab.research.google.com/github/{REPO}/blob/{ref}/{repo_path})")
-        self._add("header", None, "markdown", f"{badge}\n\n# {title}")
+        logo = (f'<img src="https://raw.githubusercontent.com/{REPO}/{ref}/assets/brand/logo-160.png" '
+                f'width="80" align="right" alt="Course logo">')
+        self._add("header", None, "markdown", f"{logo}\n\n{badge}\n\n# {title}")
         setup = SETUP.format(ref=ref, repo=REPO)
         if extra_imports:
             setup += "\n\n" + _dedent(extra_imports)

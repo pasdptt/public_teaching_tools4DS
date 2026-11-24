@@ -15,6 +15,7 @@ Under CC BY 4.0 you may share and adapt the teaching content for any purpose, pr
 
 ## Third-party material is not covered by these licences
 
+* **Course logo and banner** (`assets/brand/`): artwork supplied by the lecturer, made with an AI image generator. They identify the course and are not covered by the CC BY 4.0 licence above unless the lecturer states otherwise.
 * **Datasets** keep their own licences; each is recorded, with its citation, in [`src/tsds/registry.yaml`](src/tsds/registry.yaml).
 * **Cited works** listed in `references.md` files belong to their authors and publishers.
 * **Instructor-only material** (solutions, answer keys, examination items) is not published in this repository.
