@@ -9,7 +9,7 @@
 | Material | Link |
 |---|---|
 | Lecture outline (2 h, with timings and worked examples) | [`lecture/outline.md`](lecture/outline.md) |
-| Lab 1 — Reproducible workflow, statistics refresher and SQL (3 h, practice) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pasdptt/public_teaching_tools4DS/blob/main/modules/m01-workflow-refresher/lab/lab1_workflow_refresher.ipynb) [`lab/lab1_workflow_refresher.ipynb`](lab/lab1_workflow_refresher.ipynb) |
+| Lab 1 — Reproducible workflow, statistics refresher and SQL (3 h guided run-through, then redone as homework; practice) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pasdptt/public_teaching_tools4DS/blob/main/modules/m01-workflow-refresher/lab/lab1_workflow_refresher.ipynb) [`lab/lab1_workflow_refresher.ipynb`](lab/lab1_workflow_refresher.ipynb) |
 | Problem set (independent work) | [`exercises/problem-set.md`](exercises/problem-set.md) |
 | Misconception checks (in lecture) | [`exercises/misconception-checks.md`](exercises/misconception-checks.md) |
 | References (each verified against its DOI record) | [`references.md`](references.md) |
@@ -42,13 +42,13 @@ By the end of this module a student can:
 
 ## Lab (3 h per teaching week)
 
-**Lab 1 (practice):** environment check; hidden state; means and `ddof`; Air Quality sentinel audit; the same summaries in pandas and DuckDB SQL; an AI-audit task. Seven tasks with self-checks, five written answers.
+**Lab 1 (practice):** a guided run-through in the session, then redone by each student as homework and uploaded to a Teams practice assignment (decision D26). Content: environment check; hidden state; means and `ddof`; Air Quality sentinel audit; the same summaries in pandas and DuckDB SQL; an AI-audit task. Seven tasks with self-checks, five written answers.
 
 **Failure analysis (required in every lab):** the −200 sentinel treated as data (mean temperature 9.78 °C instead of 18.32 °C; audit M15) and an out-of-order notebook (audit S2). **AI-audit task:** an AI-written "daily mean" that groups by day of the month (31 values instead of 391).
 
 ## Independent work (5 h per teaching week)
 
-[Problem set](exercises/problem-set.md): statistics refresher (2 h), SQL practice (1.5 h), reading Rule et al. (2019) and the AI policy (1.5 h).
+Redo Lab 1 on your own and submit it (2 h); [problem set](exercises/problem-set.md) core items (2 h); reading Rule et al. (2019) and the AI policy (1 h).
 
 ## Datasets
 

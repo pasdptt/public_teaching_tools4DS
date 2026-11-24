@@ -20,6 +20,7 @@ The weights are unchanged from the TQF3: **practical work 20%, project 25%, midt
   * Each graded lab is marked out of 8 and scaled to 3⅓%.
 * **All other labs are practice labs.** They are not graded; they have self-checks, and their solutions are discussed in class.
 * **Late and missed graded labs:** late submissions are accepted; a graded lab that is not submitted by the final cut-off announced in Microsoft Teams scores 0 (decision D22).
+* **When:** each lab is run through in the lab session and then completed by each student as homework (decision D26); the homework is what is submitted and marked.
 * **Submission:** upload the `.ipynb` file to the lab's assignment in **Microsoft Teams** ([how](getting-started.md#before-you-submit)).
 
 ## Project (25%)

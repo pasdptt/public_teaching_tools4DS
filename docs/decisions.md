@@ -23,7 +23,7 @@ Decisions taken by the course lecturer on **9 November 2026**, in answer to the 
 | D17 (Q-AI1) | AI assistance in labs and the project | **Allowed with disclosure** (AI-use log; explain any cell) | AI policy | — |
 | D18 (Q-R1) | Licences for this public repository | **MIT for code, CC BY 4.0 for teaching content** | `LICENSE`, `LICENSE-CONTENT.md` | Holder confirmed 24 Nov 2026 (D24) |
 | D19 (Q-D2) | Embeddings example in module m06 | **An openly licensed Thai text corpus** | Module m06 | Find a corpus with a verified open licence and precompute embeddings on CPU; the lecturer approved the approach on 24 Nov 2026 (D25) |
-| D20 | How labs are held (one session or sections) | **Not decided yet** | Materials kept neutral (Colab in the browser works either way) | Options set out for the lecturer on 24 Nov 2026; decide with the department |
+| D20 | How labs are held | **Decided 24 Nov 2026 (D26)** | See D26 | — |
 
 ## Decisions of 24 November 2026
 
@@ -34,4 +34,5 @@ Decisions taken by the course lecturer on **9 November 2026**, in answer to the 
 | D23 | Submission channel | **Microsoft Teams** (assignment per lab; upload the `.ipynb`) | Getting started, assessment | Create the class team and one assignment per graded lab |
 | D24 | Copyright holder | **Pasd Putthapipat**, for academic purposes | `LICENSE`, `LICENSE-CONTENT.md` (holder unchanged; purpose noted) | If "academic purposes" is meant to forbid commercial reuse, switch the content licence to CC BY-NC 4.0 |
 | D25 | Thai text corpus for m06 (D19) and the Thai revenue file (D4) | **Approved** | Backlog B20 can proceed | The lecturer still sends the revenue file's source; the corpus licence must be verified before use |
+| D26 (D20) | How labs are held | **The lab session is a guided run-through** of the lab with the lecturer; students then **do the lab again on their own as homework** and submit it | Schedule, syllabus, getting started, assessment; m01 lecture, lab, problem set and run sheet | For graded labs, decide how much of the graded tasks the run-through may show (recommendation: run through on a parallel example and leave the graded tasks for homework) |
 | — | Calendar dates, peer-assessment form, glossary review | **Left for now** | — | Revisit before week 3 (project M1) |

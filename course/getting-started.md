@@ -6,7 +6,7 @@ All labs run in **Google Colab** in your browser. You do not need to install any
 
 1. Join the course team in **Microsoft Teams** (the lecturer shares the join code). Graded labs are submitted there.
 2. Check that you can sign in to **Google Colab** with a Google account.
-3. Open **[Lab 1](../modules/m01-workflow-refresher/)** in Colab and work through it in the lab session. It is practice (not graded) and has exactly the format of the six graded labs.
+3. Open **[Lab 1](../modules/m01-workflow-refresher/)** in Colab and follow the run-through in the lab session. Then **do it again on your own as homework**, from a fresh copy, and upload it to the Lab 1 practice assignment in Teams. It is not graded, and it has exactly the format of the six graded labs.
 4. Read the [AI-use policy](ai-policy.md) and the [assessment](assessment.md) page.
 5. Start forming a **project team of 5–6** (at most 20 teams); the one-page proposal (M1) is due in week 3 ([project brief](project-brief.md)).
 
@@ -16,6 +16,13 @@ All labs run in **Google Colab** in your browser. You do not need to install any
 2. In Colab choose **File → Save a copy in Drive**, so that your work is saved under your account.
 3. Run the **setup cell** (the first code cell). On the first run in a new Colab session it installs the small course helper package `tsds`, which takes a few seconds. It then prints a table of package versions.
    * If a line says `outside tested range`, the lab will probably still work. If something fails, include that table when you ask for help.
+
+## How labs work
+
+Every lab week has two steps:
+
+1. **In the lab session**, the lecturer runs through the lab with you: the ideas behind each part, how to approach each task, and how to read the self-checks.
+2. **As homework**, you do the lab again **on your own**, starting from a fresh copy, and submit it in Microsoft Teams. For graded labs this is the submission that is marked.
 
 ## While you work
 

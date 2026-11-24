@@ -3,6 +3,7 @@
 **Status:** decided 9 November 2026 ([decision log](../docs/decisions.md)). This plan is used informally this term; the formal TQF3 revision is deferred.
 
 * **Teaching weeks:** 2-hour lecture, 3-hour lab, 5 hours of independent work.
+* **Lab sessions are guided run-throughs** with the lecturer; students then do the lab again on their own as homework, within the 5 hours of independent work, and submit it in Microsoft Teams (decision D26).
 * **Adjustment weeks:** absorb holidays and slippage, and host the project presentations.
 * **Examinations:** scheduled by the university outside the 15 weeks.
 * **Week numbers are deliberately kept only in this file.** Module folders are named by topic (`m01`–`m11`), so moving a week means editing this table only.

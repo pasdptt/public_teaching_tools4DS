@@ -1,6 +1,6 @@
 # Lecture outline — Reproducible workflow, statistics refresher and SQL (module m01, week 1)
 
-**Length:** 2 hours, delivered in Thai with English slides and terms. **Lab:** [Lab 1](../lab/lab1_workflow_refresher.ipynb) (3 hours, practice).
+**Length:** 2 hours, delivered in Thai with English slides and terms. **Lab:** [Lab 1](../lab/lab1_workflow_refresher.ipynb) (3-hour guided run-through, then redone as homework; practice).
 
 Every number in this outline was produced by the Lab 1 code and is the same in both CI environments (see [`../EXECUTION-REPORT.md`](../EXECUTION-REPORT.md)). Reference keys such as [Rul19] point to [`../references.md`](../references.md). The misconception checks (MC1–MC6) are in [`../exercises/misconception-checks.md`](../exercises/misconception-checks.md).
 
@@ -36,7 +36,8 @@ Every number in this outline was produced by the Lab 1 code and is the same in b
 * Submit the `.ipynb` file to the lab's **Microsoft Teams** assignment. **Late submissions are accepted; a graded lab that is never submitted scores 0.**
 * Before submitting: **Runtime → Restart session and run all**. The grader re-runs your notebook from the top in a fresh session; a notebook that only works out of order loses the reproducibility mark.
 * Do not change the given cells or the self-check cells.
-* Lab 1 (this week) is **practice**, in exactly the format of the graded labs: use it to rehearse.
+* **Every lab week:** the lab session is a guided **run-through**; you then do the lab **again on your own as homework** and submit it in Teams. For graded labs, the homework is what is marked.
+* Lab 1 (this week) is **practice**, in exactly the format of the graded labs: use it to rehearse, including the Teams upload.
 * **Project:** teams of 5–6 form in weeks 1–2; the proposal (M1) is due in week 3.
 
 **AI policy** ([full text](../../../course/ai-policy.md)): AI tools are **allowed in labs and the project with disclosure** (the AI-use log at the end of every notebook), you must be able to explain any cell you submit, and examinations are without AI. Verification, not prompting, is the skill: "it looked right" is not verification.
@@ -164,6 +165,6 @@ It runs, returns sensible-looking CO values labelled by "day", and is **wrong**:
 
 > **MC6** (AI audit) here.
 
-**Lab 1 in 3 hours:** environment check (Part 0), hidden state (Part 1), means and `ddof` (Part 2), Air Quality sentinels (Part 3), pandas vs DuckDB (Part 4), AI audit (Part 5). It is practice: it is not graded, but it has the same structure, self-checks and AI-use log as the graded labs. Finish with *Restart session and run all*.
+**Lab 1:** environment check (Part 0), hidden state (Part 1), means and `ddof` (Part 2), Air Quality sentinels (Part 3), pandas vs DuckDB (Part 4), AI audit (Part 5). In the lab session we run through it together; then you do it again on your own as homework, from a fresh copy, finish with *Restart session and run all*, and upload it to the Lab 1 practice assignment in Teams. It is not graded, but it has the same structure, self-checks and AI-use log as the graded labs.
 
-**Independent work this week (5 h):** the [problem set](../exercises/problem-set.md), Python and statistics items (about 2 h) and SQL items (about 1.5 h); read [Rul19] and the [AI policy](../../../course/ai-policy.md) (about 1.5 h); start forming a project team of 5–6.
+**Independent work this week (5 h):** redo Lab 1 on your own and submit it (about 2 h); the core items of the [problem set](../exercises/problem-set.md) (about 2 h); read [Rul19] and the [AI policy](../../../course/ai-policy.md) (about 1 h); start forming a project team of 5–6.

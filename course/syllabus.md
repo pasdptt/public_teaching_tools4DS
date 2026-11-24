@@ -35,7 +35,7 @@
 
 ## Teaching pattern
 
-* **12 teaching weeks**, each with a 2-hour lecture, a 3-hour lab in Colab and 5 hours of independent work.
+* **12 teaching weeks**, each with a 2-hour lecture, a 3-hour lab in Colab and 5 hours of independent work. The lab session is a guided run-through; students then do the lab again on their own as homework.
 * **3 adjustment weeks** for holidays, catch-up, and the project presentations.
 * Every lab ends with a failure-analysis task and a written interpretation.
 * Examinations are scheduled by the university outside the 15 weeks.
