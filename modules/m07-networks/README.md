@@ -8,7 +8,7 @@
 
 | Material | Link |
 |---|---|
-| **Lecture slides** (for projection; each deck matches its part of the outline section for section) | Part I deck · Part II deck (links added when published) |
+| **Lecture slides** (for projection; each deck matches its part of the outline section for section) | [Part I deck](https://claude.ai/artifact/1bVvDRAKXpLhByejLDCDvq) (17 slides) · [Part II deck](https://claude.ai/artifact/Xm8kN1r4wGJ3th8rVhBrNf) (18 slides) |
 | Lecture outline (two 2-hour lectures, with timings and worked examples) | [`lecture/outline.md`](lecture/outline.md) |
 | Lab 7A — Graphs from tables, paths and Dijkstra (practice; run-through in the session, then redone as homework) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pasdptt/public_teaching_tools4DS/blob/main/modules/m07-networks/lab/lab7a_graphs_paths.ipynb) [`lab/lab7a_graphs_paths.ipynb`](lab/lab7a_graphs_paths.ipynb) |
 | Lab 7B — Centrality, communities and link prediction (**graded lab G4**; run-through in the session, then done as homework and submitted in Teams) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pasdptt/public_teaching_tools4DS/blob/main/modules/m07-networks/lab/lab7b_centrality_communities.ipynb) [`lab/lab7b_centrality_communities.ipynb`](lab/lab7b_centrality_communities.ipynb) |

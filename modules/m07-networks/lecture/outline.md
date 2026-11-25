@@ -1,6 +1,6 @@
 # Lecture outline — Network analysis (module m07)
 
-**Slides:** Part I deck · Part II deck (links added when the decks are published). Each deck matches its part of this outline section for section; the slide numbers are given in each section heading. Change both together.
+**Slides:** [Part I deck](https://claude.ai/artifact/1bVvDRAKXpLhByejLDCDvq) (17 slides) · [Part II deck](https://claude.ai/artifact/Xm8kN1r4wGJ3th8rVhBrNf) (18 slides), for projection. Each deck matches its part of this outline section for section; the slide numbers are given in each section heading. Change both together.
 
 **Length:** two lectures of 2 hours, delivered in Thai with English slides and terms. **Labs:** [Lab 7A](../lab/lab7a_graphs_paths.ipynb) (practice) and [Lab 7B](../lab/lab7b_centrality_communities.ipynb) (**graded lab G4**). Each is a guided run-through in the session, and each student then does the lab again as homework; Lab 7B's homework is marked.
 
@@ -20,7 +20,7 @@ Every number in this outline was produced by the lab code or the module's key-nu
 | 1:35–1:50 | §1.5 Failure analysis | The undirected collapse; a silent parsing change |
 | 1:50–2:00 | §1.6 Lab 7A and this week | |
 
-### §1.1 From tables to graphs (20 min)
+### §1.1 From tables to graphs (20 min) · slide 3
 
 A graph $G = (V, E)$ is a set of nodes and a set of edges. A table of records does not determine it; we decide:
 
@@ -33,7 +33,7 @@ A graph $G = (V, E)$ is a set of nodes and a set of edges. A table of records do
 
 Graph types: undirected or directed; simple or multi-graph (several edges per pair); unweighted or weighted. networkx: `Graph`, `DiGraph`, `MultiGraph`, `MultiDiGraph` [New18].
 
-### §1.2 Representations and degree (15 min)
+### §1.2 Representations and degree (15 min) · slides 4–5
 
 * **Adjacency matrix** $A$, $A_{ij} = 1$ (or the weight) if there is an edge $i \to j$; symmetric for an undirected graph. Memory $n^2$, so large sparse graphs are stored as **edge lists** or sparse matrices (memory proportional to $|E|$).
 * **Degree:** undirected $k_i = \sum_j A_{ij}$; directed out-degree $d^+(i) = \sum_j A_{ij}$, in-degree $d^-(i) = \sum_j A_{ji}$.
@@ -41,13 +41,13 @@ Graph types: undirected or directed; simple or multi-graph (several edges per pa
 
 > **MC1** (degrees in a directed graph) here.
 
-### §1.3 Degree distributions (15 min)
+### §1.3 Degree distributions (15 min) · slide 6
 
 **Flights (Lab 7A).** 107 airports, 223 directed routes. All edges leave EWR (out-degree 85), JFK (70) or LGA (68); the 104 destinations have in-degree 1 (27 airports), 2 (35) or 3 (42) and out-degree 0. The data contain only **departures from NYC**, so the network is a star: it can answer "who serves where" but not questions about connections.
 
 **Karate club** [Zac77]. 34 members, 78 friendships; mean degree 4.59, median 3, maximum 17. Two members (the administrator, node 33, degree 17; the instructor, node 0, degree 16) have far more ties than the rest: a **heavy-tailed** degree distribution in miniature. Diameter 5; average shortest path 2.41.
 
-### §1.4 Shortest paths: Dijkstra (35 min) 
+### §1.4 Shortest paths: Dijkstra (35 min) · slides 8–11 (slide 7: break)
 
 **Problem.** Weighted graph with weights $w \ge 0$; find the shortest distance $d(v)$ from a source $s$ to every node [Dij59].
 
@@ -73,7 +73,7 @@ Shortest path to F: A → C → B → D → E → F, length 12.
 
 > **MC2** (negative weights) here.
 
-### §1.5 Failure analysis (15 min)
+### §1.5 Failure analysis (15 min) · slides 12–14
 
 **The undirected collapse (audit M19; Lab 7A Part 2).** The old notebook built `nx.from_pandas_edgelist(flights, "origin", "dest", edge_attr=True)`: an **undirected simple** graph. Three things go wrong:
 
@@ -88,7 +88,7 @@ Shortest path to F: A → C → B → D → E → F, length 12.
 
 > **MC3** (the undirected collapse) here.
 
-### §1.6 Lab 7A and this week (10 min)
+### §1.6 Lab 7A and this week (10 min) · slides 15–16 (slide 17: references)
 
 **Lab 7A (practice):** four parts: the directed flights graph; the undirected collapse; Dijkstra; the time conversion. Run through in the session; redo it as homework and upload it to the Lab 7A practice assignment in Teams.
 
@@ -107,7 +107,7 @@ Shortest path to F: A → C → B → D → E → F, length 12.
 | 1:20–1:50 | §2.4 Link prediction and graph leakage | Edge splits; features from the full graph |
 | 1:50–2:00 | §2.5 Graded lab G4 and this week | |
 
-### §2.1 Centrality (25 min)
+### §2.1 Centrality (25 min) · slides 3–5
 
 | Measure | Idea | Karate: top member (value) |
 |---|---|---|
@@ -123,7 +123,7 @@ The measures disagree in instructive ways: node 2 is third by eigenvector centra
 
 > **MC4** (PageRank) here.
 
-### §2.2 Null models (20 min)
+### §2.2 Null models (20 min) · slides 6–8
 
 A statistic means little without a reference. Karate's **transitivity** (share of connected triples that close into triangles) is 0.256. Is that high?
 
@@ -136,7 +136,7 @@ A statistic means little without a reference. Karate's **transitivity** (share o
 
 > **MC5** (which null) here.
 
-### §2.3 Communities (25 min)
+### §2.3 Communities (25 min) · slides 10–12 (slide 9: break)
 
 **Modularity** [NG04] compares edges inside communities with the number expected given the degrees:
 
@@ -148,7 +148,7 @@ $$Q = \frac{1}{2m}\sum_{ij}\Big(A_{ij} - \frac{k_i k_j}{2m}\Big)[c_i = c_j].$$
 
 > **MC6** (modularity of random graphs) here.
 
-### §2.4 Link prediction and graph leakage (30 min)
+### §2.4 Link prediction and graph leakage (30 min) · slides 13–15
 
 **Task.** Rank unconnected pairs by how likely an edge is [LNK07]. Scores for $(u, v)$: common neighbours; **Adamic–Adar** $\sum_{w \in N(u)\cap N(v)} 1/\log k_w$ [AA03]; negative shortest-path distance.
 
@@ -163,7 +163,7 @@ On the full graph every hidden edge is still there, at distance 1, and every non
 
 > **MC7** (where to compute features) here.
 
-### §2.5 Graded lab G4 and this week (10 min)
+### §2.5 Graded lab G4 and this week (10 min) · slides 16–17 (slide 18: references)
 
 **Graded lab G4 (Lab 7B).** Five parts: PageRank by power iteration; transitivity against the configuration-model null; Louvain communities against the null; link prediction with an edge split; the full-graph leak. In the session we run through the ideas on other examples; each student then does the lab **on their own as homework** and uploads the `.ipynb` to the G4 assignment in Teams. The homework is what is marked (3 + 1 points auto-checked, 2 + 2 points written answers).
 
