@@ -8,7 +8,7 @@
 
 | Material | Link |
 |---|---|
-| **Lecture slides** (for projection; match the outline section for section) | m05 lecture deck (link added when published) |
+| **Lecture slides** (22 slides, for projection; match the outline section for section) | [m05 lecture deck](https://claude.ai/artifact/4iBUWamfM5VpLR3oh2tZkS) |
 | Lecture outline (2 h, with timings and worked examples) | [`lecture/outline.md`](lecture/outline.md) |
 | Lab 5 — LDA and ICA (**graded lab G3**; run-through in the session, then done as homework and submitted in Teams) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pasdptt/public_teaching_tools4DS/blob/main/modules/m05-lda-ica/lab/lab5_lda_ica.ipynb) [`lab/lab5_lda_ica.ipynb`](lab/lab5_lda_ica.ipynb) |
 | Problem set (independent work; midterm practice) | [`exercises/problem-set.md`](exercises/problem-set.md) |

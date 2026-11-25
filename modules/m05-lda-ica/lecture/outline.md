@@ -1,6 +1,6 @@
 # Lecture outline — Supervised vs unsupervised extraction: LDA and ICA (module m05)
 
-**Slides:** m05 lecture deck (link added when the deck is published). The deck and this outline match section for section; the slide numbers are given in each section heading. Change both together.
+**Slides:** [m05 lecture deck](https://claude.ai/artifact/4iBUWamfM5VpLR3oh2tZkS) (22 slides, for projection). The deck and this outline match section for section; the slide numbers are given in each section heading. Change both together.
 
 **Length:** 2 hours, delivered in Thai with English slides and terms. **Lab:** [Lab 5](../lab/lab5_lda_ica.ipynb), **graded lab G3** (guided run-through in the session; each student then does the lab as homework, and the homework is marked).
 
@@ -18,7 +18,7 @@ Every number in this outline was produced by the Lab 5 code and is the same in b
 
 ---
 
-## §1 LDA: a supervised projection (35 min)
+## §1 LDA: a supervised projection (35 min) · slides 3–6
 
 **1.1 Fisher's criterion.** For $K$ classes with means $\bar x_k$, overall mean $\bar x$ and $n_k$ observations:
 
@@ -42,7 +42,7 @@ and at a solution $J(w) = \lambda$: the best direction has the largest generalis
 
 > **MC1** (K − 1 directions) here.
 
-## §2 LDA or PCA features? (15 min)
+## §2 LDA or PCA features? (15 min) · slides 7–9
 
 **2.1 Worked example (Lab 5, Part 2).** Wine, two features each, repeated 5-fold CV (25 scores), every fitted step inside the pipeline:
 
@@ -64,7 +64,7 @@ LDA's two directions are chosen to separate the cultivars; PCA's are chosen for 
 
 > **MC2** (labels) and **MC3** (LDA before the split) here.
 
-## §3 ICA: the model (25 min)
+## §3 ICA: the model (25 min) · slides 11–15 (slide 10: break)
 
 **3.1 The latent-source model.** Observed signals are linear mixtures of unobserved sources: $x = A s$, with $A$ an unknown square mixing matrix [Com94]. Assumptions: the sources are **statistically independent** and **non-Gaussian** (at most one may be Gaussian), and $A$ is invertible. The classic picture: three microphones record three speakers; ICA recovers the voices.
 
@@ -76,7 +76,7 @@ LDA's two directions are chosen to separate the cultivars; PCA's are chosen for 
 
 > **MC4** (ambiguities) and **MC6** (uncorrelated vs independent) here.
 
-## §4 Worked example: three signals (15 min)
+## §4 Worked example: three signals (15 min) · slides 16–17
 
 Lab 5, Part 4: a sine, a square wave and a sawtooth (2,000 samples; excess kurtosis **−1.365, −1.991, −1.200**) mixed by a fixed $3\times 3$ matrix. Recovery score: for each true source, the largest absolute correlation with any recovered component, averaged (1 = perfect; it ignores scale, sign and order).
 
@@ -87,7 +87,7 @@ Lab 5, Part 4: a sine, a square wave and a sawtooth (2,000 samples; excess kurto
 
 PCA returns uncorrelated mixtures; ICA returns the signals.
 
-## §5 When ICA fails: Gaussian sources (10 min)
+## §5 When ICA fails: Gaussian sources (10 min) · slides 18–19
 
 Replace the sources with independent Gaussian noise and mix with the same matrix. A rotation of independent standard Gaussians is again independent Gaussian, so no rotation is "more non-Gaussian" than another (Lab 5, Part 5; FastICA with random seeds 0–4):
 
@@ -100,7 +100,7 @@ FastICA may also warn that it did not converge. In real data, check the kurtosis
 
 > **MC5** (Gaussian sources) here.
 
-## §6 Graded lab G3, midterm, project M2 (10 min)
+## §6 Graded lab G3, midterm, project M2 (10 min) · slides 20–21 (slide 22: references)
 
 **Graded lab G3 (Lab 5).** Five parts: Fisher directions; LDA vs PCA features; LDA before the split; ICA vs PCA; the Gaussian failure. In the lab session we run through the ideas on other examples; each student then does the lab **on their own as homework** and uploads the `.ipynb` to the G3 assignment in Teams. The homework is what is marked (3 + 1 points auto-checked, 2 + 2 points written answers).
 
