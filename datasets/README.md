@@ -8,5 +8,6 @@ The dataset registry lives in [`src/tsds/registry.yaml`](../src/tsds/registry.ya
 | `wine` | CC BY 4.0 (UCI 109) | bundled with scikit-learn |
 | `digits` | CC BY 4.0 (UCI 80) | bundled with scikit-learn |
 | `air_quality` | CC BY 4.0 (UCI 360) | downloaded from UCI, SHA-256 verified |
+| `nycflights13_flights`, `nycflights13_airports` | CC0 (nycflights13 package DESCRIPTION) | `.rda` files downloaded from a pinned GitHub commit, SHA-256 verified, read with `rdata` |
 
 Data files are not committed to this repository. Required work never needs a Google Drive mount or a Kaggle token.

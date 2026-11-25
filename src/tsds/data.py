@@ -73,6 +73,34 @@ def _download(entry: dict) -> bytes:
     return data
 
 
+def _load_rda(entry: dict) -> pd.DataFrame:
+    """An R data file (.rda) holding one data frame, read with the pure-Python `rdata` package.
+
+    Parsing takes about 20 s for the flights file, so the parsed frame is cached next to the
+    download, keyed by the file's SHA-256 and the pandas version (a changed source file or pandas never
+    reuses an old cache)."""
+    parsed = cache_dir() / f"{entry['sha256'][:16]}-pandas{pd.__version__}.pkl"
+    if parsed.exists():
+        try:
+            return pd.read_pickle(parsed)
+        except Exception:  # unreadable cache: parse the download again
+            parsed.unlink()
+    data = _download(entry)
+    import warnings
+    import rdata
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")  # rdata warns about R classes (tibble, POSIXct) it maps to plain columns
+        path = cache_dir() / Path(entry["url"]).name
+        df = rdata.read_rda(str(path))[entry["object"]]
+    df = df.reset_index(drop=True)
+    df.columns = [str(c) for c in df.columns]
+    for col in df.columns:
+        if str(df[col].dtype).startswith(("string", "str")):
+            df[col] = df[col].astype(object)
+    df.to_pickle(parsed)
+    return df
+
+
 def load(name: str):
     """Load a registry dataset. Bundled datasets return (X, y); downloaded ones return a DataFrame."""
     entry = _entry(name)
@@ -89,4 +117,6 @@ def load(name: str):
         data = _download(entry)
         with zipfile.ZipFile(io.BytesIO(data)) as z, z.open(entry["member"]) as f:
             return pd.read_csv(f, **entry.get("read_csv", {}))
+    if entry["kind"] == "url_rda":
+        return _load_rda(entry)
     raise ValueError(f"Unsupported dataset kind {entry['kind']!r}")

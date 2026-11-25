@@ -7,7 +7,7 @@ name = "tsds"
 version = "0.1.0"
 description = "Helper package for KMUTNB 040563107 Tools for Statistical Data Science (environment check, seeds, licensed dataset registry)"
 requires-python = ">=3.10"
-dependencies = ["numpy", "pandas", "scikit-learn", "pyyaml"]
+dependencies = ["numpy", "pandas", "scikit-learn", "pyyaml", "rdata"]
 
 [tool.setuptools]
 packages = ["tsds"]

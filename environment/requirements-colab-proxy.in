@@ -9,6 +9,9 @@ scikit-learn==1.6.1
 matplotlib==3.10.*
 duckdb==1.2.*  # assumption: a 1.x release as preinstalled in Colab; replace with the real snapshot
 imbalanced-learn==0.14.*  # assumption: Colab preinstalls imbalanced-learn; replace with the real snapshot
+networkx==3.*  # assumption: Colab preinstalls networkx 3.x; replace with the real snapshot
+statsmodels==0.14.*  # assumption: Colab preinstalls statsmodels 0.14; replace with the real snapshot
+rdata  # not in Colab: installed with the tsds helper package
 pyyaml
 ipykernel
 nbclient

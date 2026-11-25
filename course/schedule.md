@@ -18,8 +18,8 @@
 | 6 | [m05-lda-ica](../modules/m05-lda-ica/) | LDA and ICA | [Lab 5](../modules/m05-lda-ica/lab/lab5_lda_ica.ipynb) | **G3** | **M2** data audit and baseline | **Built** |
 | 7 | [m06-nonlinear-representations](../modules/m06-nonlinear-representations/) | Nonlinear and learned representations (bounded) | [Lab 6](../modules/m06-nonlinear-representations/lab/lab6_nonlinear_representations.ipynb) | practice (AI-audit task) | — | **Built** |
 | — | — | **Midterm examination**: covers weeks 1–6 (may be adjusted) | — | 20% | — | — |
-| 8 | [m07-networks](../modules/m07-networks/) | Network analysis I | Lab 7A | practice | — | Planned |
-| 9 | [m07-networks](../modules/m07-networks/) | Network analysis II | Lab 7B | **G4** | — | Planned |
+| 8 | [m07-networks](../modules/m07-networks/) | Network analysis I | [Lab 7A](../modules/m07-networks/lab/lab7a_graphs_paths.ipynb) | practice | — | **Built** |
+| 9 | [m07-networks](../modules/m07-networks/) | Network analysis II | [Lab 7B](../modules/m07-networks/lab/lab7b_centrality_communities.ipynb) | **G4** | — | **Built** |
 | 10 | [m08-smoothing-temporal](../modules/m08-smoothing-temporal/) | Smoothing, aggregation and temporal evaluation | Lab 8 | **G5** (AI-audit task) | **M3** method comparison | Planned |
 | 11 | [m09-hpc-laptop](../modules/m09-hpc-laptop/) | High-performance computing on a laptop | Lab 9 | practice | — | Planned |
 | 12 | [m10-streaming](../modules/m10-streaming/) | Streaming algorithms | Lab 10 | **G6** | **M4** report and repository (end of week) | Planned |

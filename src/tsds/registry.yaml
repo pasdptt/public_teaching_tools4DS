@@ -60,3 +60,34 @@ air_quality:
   notes: >
     Missing values are coded as -200 (verified in the file: 366 temperature values).
     The loader returns the raw file; recoding the sentinel is part of the lab.
+
+nycflights13_flights:
+  title: Flights that departed New York City (EWR, JFK, LGA) in 2013
+  kind: url_rda
+  url: https://raw.githubusercontent.com/tidyverse/nycflights13/df98ef215aa8216fe0838a0b8ac5bada646d814c/data/flights.rda
+  sha256: 30252b3d787e832c1f7c9cb5adf270ea595f54e5dcb1d96778463a58ff79e714
+  object: flights
+  source: nycflights13 R package (GitHub tidyverse/nycflights13, commit df98ef2); data from the US Bureau of Transportation Statistics
+  creators: H. Wickham
+  year: 2013
+  licence: CC0
+  verified: "DESCRIPTION file of the package at commit df98ef2 ('License: CC0'), 2026-11-25"
+  citation: "Wickham, H. nycflights13: Flights that Departed NYC in 2013 [R package, data]. https://github.com/tidyverse/nycflights13 (CC0)"
+  notes: >
+    336,776 rows, 19 columns. Every flight departs from EWR, JFK or LGA, so the directed
+    origin-destination network is a star around three airports. Reading needs the pure-Python
+    `rdata` package (installed with tsds); the parsed frame is cached.
+
+nycflights13_airports:
+  title: Airport metadata (FAA code, name, location)
+  kind: url_rda
+  url: https://raw.githubusercontent.com/tidyverse/nycflights13/df98ef215aa8216fe0838a0b8ac5bada646d814c/data/airports.rda
+  sha256: 53a85b5dc64a17d5a3d0a43067a0018df4a299a66e0b092493759abf8dd50ccd
+  object: airports
+  source: nycflights13 R package (GitHub tidyverse/nycflights13, commit df98ef2)
+  creators: H. Wickham
+  year: 2013
+  licence: CC0
+  verified: "DESCRIPTION file of the package at commit df98ef2 ('License: CC0'), 2026-11-25"
+  citation: "Wickham, H. nycflights13: Flights that Departed NYC in 2013 [R package, data]. https://github.com/tidyverse/nycflights13 (CC0)"
+  notes: 1,458 airports with FAA code (faa), name, latitude and longitude.

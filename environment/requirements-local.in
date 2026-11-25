@@ -7,6 +7,9 @@ scikit-learn
 matplotlib
 duckdb
 imbalanced-learn
+networkx
+statsmodels
+rdata  # reads the nycflights13 .rda files (tsds dependency)
 pyyaml
 ipykernel
 nbclient
