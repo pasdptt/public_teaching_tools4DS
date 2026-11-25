@@ -8,6 +8,7 @@ scipy<1.17
 scikit-learn==1.6.1
 matplotlib==3.10.*
 duckdb==1.2.*  # assumption: a 1.x release as preinstalled in Colab; replace with the real snapshot
+imbalanced-learn==0.14.*  # assumption: Colab preinstalls imbalanced-learn; replace with the real snapshot
 pyyaml
 ipykernel
 nbclient
