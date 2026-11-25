@@ -1,6 +1,6 @@
 # Lecture outline — Evaluation and leakage (module m02)
 
-**Slides:** m02 lecture deck (link added when the deck is published). The deck and this outline match section for section; the slide numbers are given in each section heading. Change both together.
+**Slides:** [m02 lecture deck](https://claude.ai/artifact/9beCW6rFFS5z4sSCfPPFzL) (24 slides, for projection). The deck and this outline match section for section; the slide numbers are given in each section heading. Change both together.
 
 **Length:** 2 hours, delivered in Thai with English slides and terms. **Lab:** [Lab 2](../lab/lab2_evaluation_leakage.ipynb), **graded lab G1** (guided run-through in the session; each student then does the lab as homework, and the homework is marked).
 
@@ -18,7 +18,7 @@ Every number in this outline was produced by the Lab 2 code and is the same in b
 
 ---
 
-## §1 What an evaluation must answer (10 min)
+## §1 What an evaluation must answer (10 min) · slide 3
 
 An evaluation estimates how a model will perform **on the data it will meet in use**. Every evaluation in this course answers three questions:
 
@@ -28,7 +28,7 @@ An evaluation estimates how a model will perform **on the data it will meet in u
 
 A fourth condition makes the first three meaningful: **nothing from the test data may influence training or model choice** (no leakage).
 
-## §2 Splits that mimic deployment (25 min)
+## §2 Splits that mimic deployment (25 min) · slides 4–6
 
 **2.1 The basic schemes.**
 
@@ -54,7 +54,7 @@ With rows split at random, each test row has nine rows of the same patient in tr
 
 > **MC1** (grouped data) here.
 
-## §3 Baselines and intervals (20 min)
+## §3 Baselines and intervals (20 min) · slides 7–10
 
 **3.1 A baseline first.** Digits recoded as "is it a 9?" has 180 nines among 1,797 images (10.0%). A classifier that always says "not 9" is 90% accurate.
 
@@ -75,7 +75,7 @@ The intervals do not overlap: the gain is larger than the test-set noise. The wi
 
 > **MC2** (intervals) here.
 
-## §4 Leakage (30 min)
+## §4 Leakage (30 min) · slides 12–16 (slide 11: break)
 
 **4.1 Definition.** Leakage is information that would not be available when the model is used, but enters its training or its selection [Kau12; KN23]. Leakage makes the estimate optimistic, and no amount of extra resampling detects it: the leaked information is in every split.
 
@@ -105,7 +105,7 @@ A step that uses $y$ leaks a lot: it picks the noise features that happen to mat
 
 > **MC3** (unsupervised steps) and **MC4** (test-set reuse) here.
 
-## §5 Class imbalance is a fitted step (15 min)
+## §5 Class imbalance is a fitted step (15 min) · slides 17–19
 
 **5.1 Metrics.** At 10% positives, accuracy rewards ignoring the minority class. Use a metric that looks at the positives (F1 of the positive class, precision and recall, balanced accuracy) and use the **same** metric and the **same** splits for every method compared.
 
@@ -124,7 +124,7 @@ The invalid score is wrong twice: test folds contain synthetic points interpolat
 
 > **MC5** (SMOTE) here.
 
-## §6 AI audit, and graded lab G1 (10 min)
+## §6 AI audit, and graded lab G1 (10 min) · slides 20–23 (slide 24: references)
 
 **Worked example (Lab 2, Part 5).** A clinic wants to predict a diagnosis **at the first visit**. An AI assistant fitted a model on all recorded columns and reported a cross-validated accuracy of **0.935**. One column, `treatment_started`, is recorded **after** the diagnosis. Without it the honest accuracy is **0.663**, against a majority baseline of **0.515**.
 

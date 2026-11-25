@@ -315,7 +315,7 @@ A module is done when all of the following hold:
 | B03 | **P0** | Dataset registry and attribution for the week 2–7 datasets | Licence, citation, size and SHA-256 recorded; the loader fails loudly on a checksum mismatch | B02 |
 | B04 | **P0 — done 9 Nov 2026** (pilot; awaiting lecturer review) | **PCA pilot module (W5–6)**: lesson plan, lecture outline with derivations and worked examples, student lab, separate instructor solution, exercises, misconception checks, assessment items, verified references, execution report | The brief's PCA pilot requirements plus §9.1; corrects M1–M7 and E4 | B02, B03 |
 | B05 | P1 — done 11 Nov 2026 | Course documents: syllabus, schedule, assessment, rubrics (§7.4), AI policy (§7.5), project brief and milestone templates | Lecturer-approved; consistent with the TQF3 weights; TQF3 revision draft prepared | B01 |
-| B06 | P1 | W3 evaluation and leakage module (includes the imbalance material) | Contains the leakage-on-noise demonstration; metric consistency (fixes E7) | B02 |
+| B06 | P1 — done 25 Nov 2026 (module m02, graded lab G1) | W3 evaluation and leakage module (includes the imbalance material) | Contains the leakage-on-noise demonstration; metric consistency (fixes E7) | B02 |
 | B07 | P1 — done 24 Nov 2026 (module m01, week 1) | W1–2 workflow and refresher modules (Python + DuckDB SQL) | SQL delivered (C3); sentinel lab (M15) | B02, B03 |
 | B08 | P1 | W4 selection vs extraction | M12 and M13 fixed; permutation importance on held-out data | B06 |
 | B09 | P1 | W7 LDA and ICA | Ground-truth source separation; Gaussian failure case; LDA inside the pipeline (fixes M8, M10, E1) | B04 |
@@ -330,7 +330,7 @@ A module is done when all of the following hold:
 | B19 | **P1 — G2 done 23 Nov 2026** (G1, G3–G6 need their hidden tests as each lab is built) | Hidden-test auto-checking for graded labs G1–G6 (decision D12): hidden tests per graded lab (private), a grader that reruns each submission in a fresh kernel, checks restart-and-run-all and scores the code criteria | Grader reproduces the rubric's auto-checked criteria on the PCA Lab 4B solution (full marks) and on the mutation-test variants (marks lost); runs 100 submissions in under 1 h on a laptop | B02 |
 | B20 | P2 | Openly licensed Thai text corpus for module m06 (decision D19): source, licence verification, CPU-precomputed embeddings, registry entry | Licence verified and recorded; embeddings reproducible from a script; lecturer approval | B03 |
 | B21 | **P0 — done 11 Nov 2026** | Move instructor material to the private repository (decision D1) and enable solution tests in its CI | Private CI runs the solution and mutation tests on every push | Lecturer creates the repository |
-| B22 | P1 | Lecture slide decks for every module (definition of done item 11): m01 done 25 Nov 2026; m04 (pilot, two decks) next, then each module as it is built | Deck matches the outline section for section; linked from outline and README; source in the private repository | — |
+| B22 | P1 | Lecture slide decks for every module (definition of done item 11): m01 and m02 done 25 Nov 2026; m04 (pilot, two decks) next, then each module as it is built | Deck matches the outline section for section; linked from outline and README; source in the private repository | — |
 | B18 | P3 | Bilingual glossary (EN–TH) and accessibility review | Glossary covers all assessed terms | B01 (Q-L1) |
 
 ---

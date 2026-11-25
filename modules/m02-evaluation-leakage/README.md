@@ -8,7 +8,7 @@
 
 | Material | Link |
 |---|---|
-| **Lecture slides** (for projection; match the outline section for section) | m02 lecture deck (link added when published) |
+| **Lecture slides** (24 slides, for projection; match the outline section for section) | [m02 lecture deck](https://claude.ai/artifact/9beCW6rFFS5z4sSCfPPFzL) |
 | Lecture outline (2 h, with timings and worked examples) | [`lecture/outline.md`](lecture/outline.md) |
 | Lab 2 — Evaluation and leakage (**graded lab G1**; run-through in the session, then done as homework and submitted in Teams) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pasdptt/public_teaching_tools4DS/blob/main/modules/m02-evaluation-leakage/lab/lab2_evaluation_leakage.ipynb) [`lab/lab2_evaluation_leakage.ipynb`](lab/lab2_evaluation_leakage.ipynb) |
 | Problem set (independent work) | [`exercises/problem-set.md`](exercises/problem-set.md) |
