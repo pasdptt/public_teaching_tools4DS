@@ -9,7 +9,7 @@ Modules are numbered by **topic sequence**, not by week (decision D7). Teaching 
 | [m03-selection-extraction](m03-selection-extraction/) | Feature selection vs extraction | 1 | — | **Built** |
 | [m04-pca](m04-pca/) | Principal component analysis | 2 | G2 (Lab 4B) | **Pilot built** |
 | [m05-lda-ica](m05-lda-ica/) | LDA and ICA | 1 | G3 | **Built** |
-| [m06-nonlinear-representations](m06-nonlinear-representations/) | Nonlinear and learned representations | 1 | — | Planned |
+| [m06-nonlinear-representations](m06-nonlinear-representations/) | Nonlinear and learned representations | 1 | — | **Built** (Thai-text segment waits for B20) |
 | [m07-networks](m07-networks/) | Network analysis | 2 | G4 (Lab 7B) | Planned |
 | [m08-smoothing-temporal](m08-smoothing-temporal/) | Smoothing, aggregation, temporal evaluation | 1 | G5 | Planned |
 | [m09-hpc-laptop](m09-hpc-laptop/) | High-performance computing on a laptop | 1 | — | Planned |

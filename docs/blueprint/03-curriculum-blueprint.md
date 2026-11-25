@@ -320,7 +320,7 @@ A module is done when all of the following hold:
 | B08 | P1 — done 25 Nov 2026 (module m03) | W4 selection vs extraction | M12 and M13 fixed; permutation importance on held-out data | B06 |
 | B09 | P1 — done 25 Nov 2026 (module m05, graded lab G3) | W7 LDA and ICA | Ground-truth source separation; Gaussian failure case; LDA inside the pipeline (fixes M8, M10, E1) | B04 |
 | B10 | P1 | Midterm item bank (private) and marking keys | 3 or more variants per item type; keys verified by a second marker | B04, B06, B09 |
-| B11 | P2 | W8 nonlinear and learned representations (bounded) | M9 and M11 fixed; trustworthiness metric; time-capped CPU autoencoder | B04 |
+| B11 | P2 — done 25 Nov 2026 (module m06, except the Thai-text segment, which waits for B20) | W8 nonlinear and learned representations (bounded) | M9 and M11 fixed; trustworthiness metric; time-capped CPU autoencoder | B04 |
 | B12 | P2 | W9–10 network analysis (with revised graph notes) | Directed weighted graph; null-model comparison; edge-split link prediction (fixes M19, M20, S6, E9) | B03 |
 | B13 | P2 | W11–12 smoothing, aggregation and temporal evaluation | Sentinel handling; LOESS and bandwidth selection; rolling-origin CV vs naive (fixes M14–M18, E8) | B03 |
 | B14 | P2 | W13 HPC on a laptop | Benchmarks report time *and* memory; randomised SVD error vs time; runs within the free Colab memory limit | B02 |
@@ -330,7 +330,7 @@ A module is done when all of the following hold:
 | B19 | **P1 — G2 done 23 Nov 2026** (G1, G3–G6 need their hidden tests as each lab is built) | Hidden-test auto-checking for graded labs G1–G6 (decision D12): hidden tests per graded lab (private), a grader that reruns each submission in a fresh kernel, checks restart-and-run-all and scores the code criteria | Grader reproduces the rubric's auto-checked criteria on the PCA Lab 4B solution (full marks) and on the mutation-test variants (marks lost); runs 100 submissions in under 1 h on a laptop | B02 |
 | B20 | P2 | Openly licensed Thai text corpus for module m06 (decision D19): source, licence verification, CPU-precomputed embeddings, registry entry | Licence verified and recorded; embeddings reproducible from a script; lecturer approval | B03 |
 | B21 | **P0 — done 11 Nov 2026** | Move instructor material to the private repository (decision D1) and enable solution tests in its CI | Private CI runs the solution and mutation tests on every push | Lecturer creates the repository |
-| B22 | P1 | Lecture slide decks for every module (definition of done item 11): m01–m05 done 25 Nov 2026 (m04: two decks); then each module as it is built | Deck matches the outline section for section; linked from outline and README; source in the private repository | — |
+| B22 | P1 | Lecture slide decks for every module (definition of done item 11): m01–m06 done 25 Nov 2026 (m04: two decks); then each module as it is built | Deck matches the outline section for section; linked from outline and README; source in the private repository | — |
 | B18 | P3 | Bilingual glossary (EN–TH) and accessibility review | Glossary covers all assessed terms | B01 (Q-L1) |
 
 ---

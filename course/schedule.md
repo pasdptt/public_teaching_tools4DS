@@ -16,7 +16,7 @@
 | 4 | [m04-pca](../modules/m04-pca/) | PCA I: theory | [Lab 4A](../modules/m04-pca/lab/lab4a_pca_theory.ipynb) | practice | — | **Pilot built** |
 | 5 | [m04-pca](../modules/m04-pca/) | PCA II: practice | [Lab 4B](../modules/m04-pca/lab/lab4b_pca_practice.ipynb) | **G2** | — | **Pilot built** |
 | 6 | [m05-lda-ica](../modules/m05-lda-ica/) | LDA and ICA | [Lab 5](../modules/m05-lda-ica/lab/lab5_lda_ica.ipynb) | **G3** | **M2** data audit and baseline | **Built** |
-| 7 | [m06-nonlinear-representations](../modules/m06-nonlinear-representations/) | Nonlinear and learned representations (bounded) | Lab 6 | practice (AI-audit task) | — | Planned |
+| 7 | [m06-nonlinear-representations](../modules/m06-nonlinear-representations/) | Nonlinear and learned representations (bounded) | [Lab 6](../modules/m06-nonlinear-representations/lab/lab6_nonlinear_representations.ipynb) | practice (AI-audit task) | — | **Built** |
 | — | — | **Midterm examination**: covers weeks 1–6 (may be adjusted) | — | 20% | — | — |
 | 8 | [m07-networks](../modules/m07-networks/) | Network analysis I | Lab 7A | practice | — | Planned |
 | 9 | [m07-networks](../modules/m07-networks/) | Network analysis II | Lab 7B | **G4** | — | Planned |
