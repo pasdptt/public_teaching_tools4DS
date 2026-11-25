@@ -8,6 +8,7 @@
 
 | Material | Link |
 |---|---|
+| **Lecture slides** (for projection; match the outline section for section) | [Part I deck](https://claude.ai/artifact/WxDVBgQq8MWqy5KgqmDZaD) (20 slides) · [Part II deck](https://claude.ai/artifact/4xDPSqiQSHpvtJR3Cq7vha) (20 slides) |
 | Lecture outline (equations, assumptions, worked examples, misconception checks) | [`lecture/outline.md`](lecture/outline.md) |
 | Lab 4A — PCA I: from theory to code | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pasdptt/public_teaching_tools4DS/blob/main/modules/m04-pca/lab/lab4a_pca_theory.ipynb) [`lab/lab4a_pca_theory.ipynb`](lab/lab4a_pca_theory.ipynb) |
 | Lab 4B — PCA II: PCA in practice | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pasdptt/public_teaching_tools4DS/blob/main/modules/m04-pca/lab/lab4b_pca_practice.ipynb) [`lab/lab4b_pca_practice.ipynb`](lab/lab4b_pca_practice.ipynb) |

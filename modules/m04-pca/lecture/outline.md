@@ -1,12 +1,25 @@
 # Lecture outline — Principal Component Analysis (module m04)
 
+**Slides:** [Part I deck](https://claude.ai/artifact/WxDVBgQq8MWqy5KgqmDZaD) (20 slides) · [Part II deck](https://claude.ai/artifact/4xDPSqiQSHpvtJR3Cq7vha) (20 slides), for projection. Each deck matches its part of this outline section for section; the slide numbers are given in each section heading. Change both together.
+
 Every number in this outline was computed by code and is identical under both CI environments: pinned local and Colab-proxy (see [`../EXECUTION-REPORT.md`](../EXECUTION-REPORT.md)). Reference keys such as [JC16] point to [`../references.md`](../references.md).
 
 ---
 
 ## Part I — PCA I: what PCA computes, and why
 
-### 1.1 Setting and notation
+| Time | Sections | Purpose |
+|---|---|---|
+| 0:00–0:10 | §1.1 | Setting and notation |
+| 0:10–0:30 | §1.2–1.3 | Maximum variance: Lagrange multiplier → eigenvectors; consequences |
+| 0:30–0:45 | §1.4–1.5 | Reconstruction error; the SVD route |
+| 0:45–0:55 | §1.6 | Sign and rotation |
+| 0:55–1:05 | Break | |
+| 1:05–1:25 | §1.7 | Covariance or correlation? (Wine) |
+| 1:25–1:35 | §1.8 | Assumptions and limitations |
+| 1:35–2:00 | §1.9 | Worked example A by hand; Lab 4A |
+
+### 1.1 Setting and notation · slide 3
 
 * **Data matrix** $X \in \mathbb{R}^{n\times p}$, with rows $x_i^\top$ (observations) and columns as variables.
 * **Mean vector:** $\bar x = \frac1n \sum_i x_i$.
@@ -16,7 +29,7 @@ Every number in this outline was computed by code and is identical under both CI
 
 PCA looks for new variables $z = X_c v$ that are linear combinations of the centred variables. It was introduced geometrically as "lines and planes of closest fit" [Pea01] and statistically as "principal components" [Hot33].
 
-### 1.2 Derivation 1: maximum variance
+### 1.2 Derivation 1: maximum variance · slides 4–5
 
 The sample variance of $z = X_c v$ is $v^\top S v$. It can be made arbitrarily large by rescaling $v$, so we constrain $v^\top v = 1$:
 
@@ -36,7 +49,7 @@ Pre-multiplying by $v_1^\top$ and using $v_1^\top S v = \lambda_1 v_1^\top v = 0
 
 **Spectral theorem.** $S = V \Lambda V^\top$, where $V$ is orthogonal and $\lambda_1 \ge \dots \ge \lambda_p \ge 0$.
 
-### 1.3 Consequences
+### 1.3 Consequences · slide 6
 
 | Quantity | Formula | Meaning |
 |---|---|---|
@@ -46,7 +59,7 @@ Pre-multiplying by $v_1^\top$ and using $v_1^\top S v = \lambda_1 v_1^\top v = 0
 | Explained-variance ratio | $\lambda_j / \sum_k \lambda_k$ | Share of total variance on component $j$ |
 | Loadings and correlations | $\operatorname{corr}(x_k, z_j) = v_{kj}\sqrt{\lambda_j}/s_k$ | Coefficients and correlations differ unless variables are standardised [CJ95] |
 
-### 1.4 Derivation 2: minimum reconstruction error
+### 1.4 Derivation 2: minimum reconstruction error · slide 7
 
 Project each centred observation onto a $k$-dimensional subspace with orthonormal basis $W \in \mathbb{R}^{p\times k}$: $\hat x_i - \bar x = W W^\top (x_i - \bar x)$. By Pythagoras,
 
@@ -58,7 +71,7 @@ $$\frac{1}{n-1}\sum_{i=1}^n \|x_i - \hat x_i\|^2 = \sum_{j>k} \lambda_j .$$
 
 In matrix form this is the Eckart–Young theorem: truncated SVD gives the best rank-$k$ approximation in Frobenius norm [EY36].
 
-### 1.5 Derivation 3: the SVD route (how software actually computes PCA)
+### 1.5 Derivation 3: the SVD route (how software actually computes PCA) · slide 8
 
 Write $X_c = U \Sigma V^\top$, with $U$ having orthonormal columns and singular values $\sigma_1 \ge \sigma_2 \ge \dots$. Then
 
@@ -69,12 +82,12 @@ $$S = \frac{1}{n-1} V \Sigma^2 V^\top \;\Rightarrow\; \lambda_j = \frac{\sigma_j
 * Prefer the SVD of $X_c$, or `numpy.linalg.eigh` on $S$, to `numpy.linalg.eig`. `eig` does not assume symmetry and does not sort its output. In the audit environment (numpy 2.5.4) it returned **complex** values for the Wine correlation matrix; under numpy 2.2.6 it returned real values. Its output is unsorted in both versions.
 * Forming $X_c^\top X_c$ squares the condition number; the SVD avoids that.
 
-### 1.6 Indeterminacy
+### 1.6 Indeterminacy · slides 9–10 (slide 11: break)
 
 * **Sign.** If $v$ solves $Sv = \lambda v$, so does $-v$. Different libraries return different signs; for Wine, PC1 from scikit-learn and from a raw SVD differ in sign. *Interpret patterns of signs within a component, never the overall sign.*
 * **Rotation.** If $\lambda_j = \lambda_{j+1}$, only the subspace is identified, not the individual axes.
 
-### 1.7 Covariance PCA or correlation PCA?
+### 1.7 Covariance PCA or correlation PCA? · slides 12–14
 
 PCA is **not scale-invariant**. If variables have different units, covariance PCA is dominated by the variable with the largest numerical variance.
 
@@ -87,7 +100,7 @@ PCA is **not scale-invariant**. If variables have different units, covariance PC
 
 **Rule [R]:** use correlation PCA when variables are in different units or their variances are not comparable on substantive grounds. Use covariance PCA when the units are common and the size of the variance is meaningful, for example pixel intensities or repeated measurements of one quantity.
 
-### 1.8 Assumptions and limitations
+### 1.8 Assumptions and limitations · slides 15–16
 
 1. **Linear** structure: PCA finds linear subspaces. Curved manifolds belong to module m06.
 2. **Variance is treated as importance.** Large-variance directions need not be the interesting or predictive ones (Part II, §2.4).
@@ -96,7 +109,7 @@ PCA is **not scale-invariant**. If variables have different units, covariance PC
 5. **Centring is part of the method.** "PCA" on uncentred data finds the direction of the mean. For Wine, the first right singular vector of the uncentred matrix has cosine 0.99984 with the mean vector.
 6. Plain PCA is a descriptive decomposition, not a probabilistic model: there are no standard errors here. Probabilistic PCA and inference are outside the course scope.
 
-### 1.9 Worked example A — by hand (also lab task T1)
+### 1.9 Worked example A — by hand (also lab task T1) · slides 17–18 (slide 19: Lab 4A; slide 20: references)
 
 The data, five observations:
 
@@ -124,13 +137,23 @@ The data, five observations:
 
 ### 1.10 In-lecture misconception checks (Part I)
 
-These are MC1–MC4 in [`../exercises/misconception-checks.md`](../exercises/misconception-checks.md). They cover centring, unit dominance, sign interpretation, and uncorrelated vs independent.
+These are MC1–MC4 in [`../exercises/misconception-checks.md`](../exercises/misconception-checks.md). They cover centring, unit dominance, sign interpretation, and uncorrelated vs independent. In the Part I deck, MC3 follows §1.6 (slide 10), MC2 follows §1.7 (slide 14), and MC1 and MC4 follow §1.8 (slide 16).
 
 ---
 
 ## Part II — PCA II: PCA in practice
 
-### 2.1 Choosing the number of components $k$: depends on the purpose
+| Time | Sections | Purpose |
+|---|---|---|
+| 0:00–0:25 | §2.1 | Choosing k; parallel analysis |
+| 0:25–0:45 | §2.2 | PCA inside the validation boundary |
+| 0:45–0:55 | Break | |
+| 0:55–1:15 | §2.3 | Leakage from PCA |
+| 1:15–1:40 | §2.4 | Variance is not relevance; visualisation is not prediction |
+| 1:40–1:50 | §2.5–2.6 | Outliers; special data types |
+| 1:50–2:00 | Summary | Summary table; graded lab G2 |
+
+### 2.1 Choosing the number of components $k$: depends on the purpose · slides 3–6
 
 | Purpose | Criterion |
 |---|---|
@@ -154,7 +177,7 @@ These are MC1–MC4 in [`../exercises/misconception-checks.md`](../exercises/mis
 
 **Why naive hold-out reconstruction error cannot choose $k$.** Projecting a new observation onto a larger subspace can never increase its residual. The hold-out error is therefore non-increasing in $k$ and always selects $k = p$. Proper cross-validation of component models needs special schemes [Wol78; BKSK08].
 
-### 2.2 PCA inside the validation boundary
+### 2.2 PCA inside the validation boundary · slides 7–8 (slide 9: break)
 
 PCA is a **fitted** transformation (mean, scaling, rotation), so it belongs inside `Pipeline(StandardScaler(), PCA(k), model)`. Choose $k$ by an *inner* CV and estimate performance by an *outer* CV (nested CV).
 
@@ -172,7 +195,7 @@ PCA is a **fitted** transformation (mean, scaling, rotation), so it belongs insi
 
 **Conclusion to teach:** on these data, PCA does **not** improve predictive accuracy over the raw-feature baseline, and model selection pushes $k$ to the top of the grid. PCA can still be worth using to reduce storage, computation or collinearity, but that is a different claim and must be stated as such. *Always compare with a baseline.*
 
-### 2.3 How large is leakage from fitting PCA before splitting?
+### 2.3 How large is leakage from fitting PCA before splitting? · slides 10–12
 
 A noise experiment: $n = 60$ observations, $p = 2000$ noise features and random labels, so the true accuracy is 0.5. Each figure below is the mean of 20 repetitions of 5-fold CV.
 
@@ -187,7 +210,7 @@ Reproducibility note: for wide data ($p \gg n$), scikit-learn's `PCA` switches a
 
 **Rule (absolute):** every fitted step goes inside the validation boundary. The *size* of the bias depends on whether the step uses $y$ [KN23]. Unsupervised leakage can still matter, for example under distribution shift or with very small $n$, so the rule does not have exceptions.
 
-### 2.4 Variance is not relevance; visualisation is not prediction
+### 2.4 Variance is not relevance; visualisation is not prediction · slides 13–15
 
 **Worked example D (synthetic, $n = 400$, course seed).**
 
@@ -214,22 +237,22 @@ PCA is unsupervised: it ranks directions by variance, not by relevance to $y$. L
 
 A 2-D PCA picture can look disappointing while the data remain highly predictable, and the reverse can also happen. *A good-looking plot and a useful feature set are different claims, and each needs its own evidence.*
 
-### 2.5 Outliers and robustness
+### 2.5 Outliers and robustness · slide 16
 
 Wine, standardised. Moving **one** observation of 178 by 15 units along the PC2 direction rotates PC1 by **19.2°**. Diagnose outliers with score distances and orthogonal distances; robust alternatives include ROBPCA [HRV05]. Report sensitivity instead of silently deleting points.
 
-### 2.6 Special data types
+### 2.6 Special data types · slide 17
 
 * **Compositional data** (shares that sum to a constant, e.g. budget or revenue composition): the closure constraint induces spurious negative correlations. Apply a log-ratio transform, such as the centred log-ratio, before PCA [Ait83]. This is relevant to the Thai local-government revenue extension case.
 * **Large $n$ or $p$:** randomised SVD [HMT11] and `IncrementalPCA`, covered in module m09 (HPC).
 
 ### 2.7 In-lecture misconception checks (Part II)
 
-These are MC5–MC8: choosing $k$ on the test set, "more variance means more predictive", "PCA before the split is always harmless", and "a 2-D plot shows whether classes are separable".
+These are MC5–MC8: choosing $k$ on the test set, "more variance means more predictive", "PCA before the split is always harmless", and "a 2-D plot shows whether classes are separable". In the Part II deck, MC5 follows §2.1 (slide 6), MC7 follows §2.3 (slide 12), and MC6 and MC8 follow §2.4 (slide 15).
 
 ---
 
-### Summary table for students
+### Summary table for students · Part II slide 18 (slide 19: graded lab G2; slide 20: references)
 
 | Concept | Key statement |
 |---|---|
