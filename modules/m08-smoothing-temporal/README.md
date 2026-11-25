@@ -8,7 +8,7 @@
 
 | Material | Link |
 |---|---|
-| **Lecture slides** (for projection; match the outline section for section) | m08 lecture deck (link added when published) |
+| **Lecture slides** (23 slides, for projection; match the outline section for section) | [m08 lecture deck](https://claude.ai/artifact/H7ZhEaMiQzZBQua2Lc1YPj) |
 | Lecture outline (2 h, with timings and worked examples) | [`lecture/outline.md`](lecture/outline.md) |
 | Lab 8 — Smoothing, aggregation and temporal evaluation (**graded lab G5**, with an AI-audit task; run-through in the session, then done as homework and submitted in Teams) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pasdptt/public_teaching_tools4DS/blob/main/modules/m08-smoothing-temporal/lab/lab8_smoothing_temporal.ipynb) [`lab/lab8_smoothing_temporal.ipynb`](lab/lab8_smoothing_temporal.ipynb) |
 | Problem set (independent work; final-exam practice) | [`exercises/problem-set.md`](exercises/problem-set.md) |

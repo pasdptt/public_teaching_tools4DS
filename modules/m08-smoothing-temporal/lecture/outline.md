@@ -1,6 +1,6 @@
 # Lecture outline — Smoothing, aggregation and temporal evaluation (module m08)
 
-**Slides:** m08 lecture deck (link added when the deck is published). The deck and this outline match section for section; the slide numbers are given in each section heading. Change both together.
+**Slides:** [m08 lecture deck](https://claude.ai/artifact/H7ZhEaMiQzZBQua2Lc1YPj) (23 slides, for projection). The deck and this outline match section for section; the slide numbers are given in each section heading. Change both together.
 
 **Length:** 2 hours, delivered in Thai with English slides and terms. **Lab:** [Lab 8](../lab/lab8_smoothing_temporal.ipynb), **graded lab G5** with an AI-audit task (guided run-through in the session; each student then does the lab as homework, and the homework is marked).
 
@@ -19,7 +19,7 @@ Every number in this outline was produced by the Lab 8 code or the module's key-
 
 ---
 
-## §1 Data before smoothing (15 min)
+## §1 Data before smoothing (15 min) · slides 3–5
 
 **1.1 Sentinels (audit M15).** The file codes missing values as −200 (366 hours of temperature, the same outages for benzene). The course's old notebook smoothed temperature with the sentinels in. An EWMA with α = 0.1 then falls to **−199.9 °C**, and differs from the correctly recoded EWMA by up to **224.7 °C** (Lab 8 Part 1; key numbers). Recode first, then look at the minimum and maximum.
 
@@ -27,7 +27,7 @@ Every number in this outline was produced by the Lab 8 code or the module's key-
 
 > **MC1** (sentinels) here.
 
-## §2 Smoothers as estimators (25 min)
+## §2 Smoothers as estimators (25 min) · slides 6–8
 
 A smoother estimates a slowly varying signal $m(t)$ in $y_t = m(t) + \varepsilon_t$.
 
@@ -43,7 +43,7 @@ A smoother estimates a slowly varying signal $m(t)$ in $y_t = m(t) + \varepsilon
 
 > **MC2** (a centred window for forecasting) here.
 
-## §3 Choosing the bandwidth (10 min)
+## §3 Choosing the bandwidth (10 min) · slides 9–10
 
 **Criterion:** predict each day from the other days and minimise the mean squared error (Lab 8 Part 2, Gaussian kernel, benzene):
 
@@ -56,7 +56,7 @@ Leave-one-out picks the smallest bandwidth: neighbouring days are correlated (la
 
 > **MC3** (leave-one-out) here.
 
-## §4 Exponential smoothing models (25 min)
+## §4 Exponential smoothing models (25 min) · slides 12–14 (slide 11: break)
 
 **SES:** $\hat y_{t+1} = \ell_t$, $\ell_t = \alpha y_t + (1-\alpha)\ell_{t-1}$. **Holt** adds a trend $b_t$ [Hol04]; **Holt–Winters** adds a seasonal component (here weekly, additive) [Win60]. The smoothing parameters and initial states are **estimated** by minimising the one-step squared errors on the training data, not fixed in advance (the old notebook fixed α = 0.6, audit M18).
 
@@ -64,7 +64,7 @@ On benzene's first 291 days: SES estimates α = **0.966**, so it puts almost all
 
 > **MC4** (α close to 1) here.
 
-## §5 Temporal evaluation (20 min)
+## §5 Temporal evaluation (20 min) · slides 15–18
 
 **Rolling origin** [Tas00]. At each origin $o$, fit on days $0, \dots, o-1$, forecast day $o$, move on one day. Here the first 75% (291 days) is the initial window: 98 one-step forecasts (Lab 8 Part 3).
 
@@ -82,7 +82,7 @@ On benzene's first 291 days: SES estimates α = **0.966**, so it puts almost all
 
 > **MC6** (random walk) here.
 
-## §6 Temporal leakage and the AI audit (10 min)
+## §6 Temporal leakage and the AI audit (10 min) · slides 19–20
 
 An AI-generated "forecast of tomorrow's benzene" (Lab 8 Part 4) reports **MAE 0.535**, far better than any method above. Three leaks:
 
@@ -94,7 +94,7 @@ The honest version uses only what is known the evening before (yesterday, the sa
 
 > **MC5** (shuffled K-fold) here.
 
-## §7 Graded lab G5 and project M3 (5 min)
+## §7 Graded lab G5 and project M3 (5 min) · slides 21–22 (slide 23: references)
 
 **Graded lab G5 (Lab 8).** Four parts: sentinels and daily aggregation; smoothers and the bandwidth criterion; rolling-origin evaluation of four methods; the AI audit. In the session we run through the ideas on another pollutant; each student then does the lab **on their own as homework** and uploads the `.ipynb` to the G5 assignment in Teams. The homework is what is marked (3 + 1 points auto-checked, 2 + 2 points written answers).
 
