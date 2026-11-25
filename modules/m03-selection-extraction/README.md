@@ -8,7 +8,7 @@
 
 | Material | Link |
 |---|---|
-| **Lecture slides** (for projection; match the outline section for section) | m03 lecture deck (link added when published) |
+| **Lecture slides** (21 slides, for projection; match the outline section for section) | [m03 lecture deck](https://claude.ai/artifact/BxkG7FfVYc5mUXFThddoEk) |
 | Lecture outline (2 h, with timings and worked examples) | [`lecture/outline.md`](lecture/outline.md) |
 | Lab 3 — Feature selection vs feature extraction (3 h guided run-through, then redone as homework; practice) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pasdptt/public_teaching_tools4DS/blob/main/modules/m03-selection-extraction/lab/lab3_selection_extraction.ipynb) [`lab/lab3_selection_extraction.ipynb`](lab/lab3_selection_extraction.ipynb) |
 | Problem set (independent work) | [`exercises/problem-set.md`](exercises/problem-set.md) |

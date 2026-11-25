@@ -1,6 +1,6 @@
 # Lecture outline — Feature selection vs feature extraction (module m03)
 
-**Slides:** m03 lecture deck (link added when the deck is published). The deck and this outline match section for section; the slide numbers are given in each section heading. Change both together.
+**Slides:** [m03 lecture deck](https://claude.ai/artifact/BxkG7FfVYc5mUXFThddoEk) (21 slides, for projection). The deck and this outline match section for section; the slide numbers are given in each section heading. Change both together.
 
 **Length:** 2 hours, delivered in Thai with English slides and terms. **Lab:** [Lab 3](../lab/lab3_selection_extraction.ipynb) (3-hour guided run-through, then redone as homework; practice). **Project:** the proposal (M1) is due this week.
 
@@ -18,7 +18,7 @@ Every number in this outline was produced by the Lab 3 code and is the same in b
 
 ---
 
-## §1 Why reduce dimension (15 min)
+## §1 Why reduce dimension (15 min) · slides 3–5
 
 **1.1 Distances lose contrast.** For 500 random points in the unit cube $[0,1]^p$, the relative contrast of the distances from one point to all others, $(d_{\max} - d_{\min})/d_{\min}$, is:
 
@@ -32,7 +32,7 @@ At $p = 1000$ the farthest point is only about 10% farther than the nearest, so 
 
 > **MC1** (distances in high dimension) here.
 
-## §2 Selection or extraction (20 min)
+## §2 Selection or extraction (20 min) · slides 6–8
 
 **2.1 Definitions.**
 
@@ -57,7 +57,7 @@ Reducing 13 features to 5 costs at most 0.013 here, well inside one fold-to-fold
 
 > **MC2** (what extraction saves) here.
 
-## §3 Three families of selection (20 min)
+## §3 Three families of selection (20 min) · slides 9–10
 
 | Family | How it chooses | Example | Cost |
 |---|---|---|---|
@@ -69,7 +69,7 @@ Reducing 13 features to 5 costs at most 0.013 here, well inside one fold-to-fold
 
 > **MC3** (selection inside CV) here.
 
-## §4 Is the selection stable? (20 min)
+## §4 Is the selection stable? (20 min) · slides 12–13 (slide 11: break)
 
 A selection method run on different training folds can pick different features. If it does, the set from one run should not be presented as "the important features" [KPH07].
 
@@ -89,7 +89,7 @@ Both agree on a stable core of four features; the fifth depends on the method, b
 
 > **MC4** (one run's selected set) here.
 
-## §5 Importance measures (25 min)
+## §5 Importance measures (25 min) · slides 14–17
 
 **5.1 Coefficients.** A regression coefficient is per unit of its variable: 0.002 per baht and 2 per thousand baht are the same effect. Compare coefficients only on standardised variables, and distrust them under collinearity, where correlated variables share or swap the effect.
 
@@ -112,7 +112,7 @@ Fully grown trees memorise the training data, splitting many times on the contin
 
 > **MC5** (impurity importance) and **MC6** (importance on training data) here.
 
-## §6 Lab 3 and the project proposal (10 min)
+## §6 Lab 3 and the project proposal (10 min) · slides 18–20 (slide 21: references)
 
 **Lab 3 (practice).** Five parts: distance contrast; selection vs extraction against a baseline; stability across folds; impurity vs permutation importance; the failure analysis of training-data importance. In the lab session we run through it together; each student then does it again on their own as homework and uploads it to the Lab 3 practice assignment in Teams.
 
