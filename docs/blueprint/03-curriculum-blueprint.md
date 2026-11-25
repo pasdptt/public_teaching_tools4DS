@@ -317,7 +317,7 @@ A module is done when all of the following hold:
 | B05 | P1 — done 11 Nov 2026 | Course documents: syllabus, schedule, assessment, rubrics (§7.4), AI policy (§7.5), project brief and milestone templates | Lecturer-approved; consistent with the TQF3 weights; TQF3 revision draft prepared | B01 |
 | B06 | P1 — done 25 Nov 2026 (module m02, graded lab G1) | W3 evaluation and leakage module (includes the imbalance material) | Contains the leakage-on-noise demonstration; metric consistency (fixes E7) | B02 |
 | B07 | P1 — done 24 Nov 2026 (module m01, week 1) | W1–2 workflow and refresher modules (Python + DuckDB SQL) | SQL delivered (C3); sentinel lab (M15) | B02, B03 |
-| B08 | P1 | W4 selection vs extraction | M12 and M13 fixed; permutation importance on held-out data | B06 |
+| B08 | P1 — done 25 Nov 2026 (module m03) | W4 selection vs extraction | M12 and M13 fixed; permutation importance on held-out data | B06 |
 | B09 | P1 | W7 LDA and ICA | Ground-truth source separation; Gaussian failure case; LDA inside the pipeline (fixes M8, M10, E1) | B04 |
 | B10 | P1 | Midterm item bank (private) and marking keys | 3 or more variants per item type; keys verified by a second marker | B04, B06, B09 |
 | B11 | P2 | W8 nonlinear and learned representations (bounded) | M9 and M11 fixed; trustworthiness metric; time-capped CPU autoencoder | B04 |

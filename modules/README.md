@@ -6,7 +6,7 @@ Modules are numbered by **topic sequence**, not by week (decision D7). Teaching 
 |---|---|---|---|---|
 | [m01-workflow-refresher](m01-workflow-refresher/) | Colab workflow, statistical computing refresher, SQL | 1 | — | **Built** |
 | [m02-evaluation-leakage](m02-evaluation-leakage/) | Evaluation and leakage | 1 | G1 | **Built** |
-| [m03-selection-extraction](m03-selection-extraction/) | Feature selection vs extraction | 1 | — | Planned |
+| [m03-selection-extraction](m03-selection-extraction/) | Feature selection vs extraction | 1 | — | **Built** |
 | [m04-pca](m04-pca/) | Principal component analysis | 2 | G2 (Lab 4B) | **Pilot built** |
 | [m05-lda-ica](m05-lda-ica/) | LDA and ICA | 1 | G3 | Planned |
 | [m06-nonlinear-representations](m06-nonlinear-representations/) | Nonlinear and learned representations | 1 | — | Planned |

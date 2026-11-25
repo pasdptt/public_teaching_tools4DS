@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | 1 | [m01-workflow-refresher](../modules/m01-workflow-refresher/) | Reproducible Colab workflow; statistical computing refresher; SQL | [Lab 1](../modules/m01-workflow-refresher/lab/lab1_workflow_refresher.ipynb) | practice (AI-audit task) | — | **Built** |
 | 2 | [m02-evaluation-leakage](../modules/m02-evaluation-leakage/) | Evaluation and leakage | [Lab 2](../modules/m02-evaluation-leakage/lab/lab2_evaluation_leakage.ipynb) | **G1** (AI-audit task) | — | **Built** |
-| 3 | [m03-selection-extraction](../modules/m03-selection-extraction/) | Feature selection vs feature extraction | Lab 3 | practice | **M1** proposal | Planned |
+| 3 | [m03-selection-extraction](../modules/m03-selection-extraction/) | Feature selection vs feature extraction | [Lab 3](../modules/m03-selection-extraction/lab/lab3_selection_extraction.ipynb) | practice | **M1** proposal | **Built** |
 | 4 | [m04-pca](../modules/m04-pca/) | PCA I: theory | [Lab 4A](../modules/m04-pca/lab/lab4a_pca_theory.ipynb) | practice | — | **Pilot built** |
 | 5 | [m04-pca](../modules/m04-pca/) | PCA II: practice | [Lab 4B](../modules/m04-pca/lab/lab4b_pca_practice.ipynb) | **G2** | — | **Pilot built** |
 | 6 | [m05-lda-ica](../modules/m05-lda-ica/) | LDA and ICA | Lab 5 | **G3** | **M2** data audit and baseline | Planned |

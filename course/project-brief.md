@@ -39,6 +39,8 @@ Each team names, in M1, one person responsible for each role. Roles rotate at le
 | **M4** Final repository and report | end of 12 | 8% | Repository (or zipped folder) plus a report of 8 pages or fewer | The layout below; README rerun instructions; AI-use appendix; anonymous peer-assessment form |
 | **M5** Presentation and Q&A | adjustment week A2 | 4% | 8-minute live talk + 6-minute Q&A | The examiner picks **two members at random**; each explains a cell of the team's code that the examiner chooses |
 
+**Submitting a milestone:** one member uploads the team's file to the milestone's assignment in **Microsoft Teams** (decision D23).
+
 ## Individual marks
 
 * **Project mark** = team mark × peer-assessment factor (between 0.8 and 1.1, from the anonymous forms at M3 and M4; the lecturer may override it).
