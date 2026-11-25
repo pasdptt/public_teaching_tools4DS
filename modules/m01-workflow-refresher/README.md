@@ -8,6 +8,7 @@
 
 | Material | Link |
 |---|---|
+| **Lecture slides** (34 slides, for projection; match the outline section for section) | [m01 lecture deck](https://claude.ai/artifact/Erv2PRZxAsxNxXpYNVXjMN) |
 | Lecture outline (2 h, with timings and worked examples) | [`lecture/outline.md`](lecture/outline.md) |
 | Lab 1 — Reproducible workflow, statistics refresher and SQL (3 h guided run-through, then redone as homework; practice) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pasdptt/public_teaching_tools4DS/blob/main/modules/m01-workflow-refresher/lab/lab1_workflow_refresher.ipynb) [`lab/lab1_workflow_refresher.ipynb`](lab/lab1_workflow_refresher.ipynb) |
 | Problem set (independent work) | [`exercises/problem-set.md`](exercises/problem-set.md) |

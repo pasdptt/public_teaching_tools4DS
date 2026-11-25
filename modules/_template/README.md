@@ -4,6 +4,14 @@
 |---|---|---|---|---|
 | **Planned** | No (practice) / **Yes — graded lab Gn** | BNN | CLOx | see the [schedule](../../course/schedule.md) |
 
+| Material | Link |
+|---|---|
+| **Lecture slides** (for projection; match the outline section for section) | link to the module's Slides artifact |
+| Lecture outline | `lecture/outline.md` |
+| Lab | Open-in-Colab badge + `lab/…ipynb` |
+| Problem set · misconception checks | `exercises/` |
+| References · execution report | `references.md` · `EXECUTION-REPORT.md` |
+
 ## Objectives
 
 By the end of this module a student can:

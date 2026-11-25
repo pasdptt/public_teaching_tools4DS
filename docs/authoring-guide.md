@@ -9,7 +9,8 @@ Copy [`../modules/_template/`](../modules/_template/) to `modules/mNN-<topic>/` 
 ```
 modules/mNN-<topic>/
 ├── README.md              status table, objectives, lesson plan, datasets, legacy material, assessment links
-├── lecture/outline.md     equations, assumptions, worked examples (numbers produced by code), misconception checks
+├── lecture/outline.md     equations, assumptions, worked examples (numbers produced by code), misconception checks;
+│                          links the module's slide deck and gives the slide numbers of each section
 ├── lab/lab<NN><part>_<name>.ipynb STUDENT notebook (e.g. lab4a_pca_theory.ipynb) — generated, never edited
 ├── exercises/             problem-set.md, misconception-checks.md (questions only)
 ├── references.md          every DOI checked against Crossref
@@ -87,8 +88,23 @@ python -m pytest -q tests/test_structure.py
 
 CI ([`../.github/workflows/notebooks.yml`](../.github/workflows/notebooks.yml)) runs the public tests in both pinned environments on every push and weekly.
 
-## 6. Finishing a module
+## 6. Lecture slides (every module)
+
+Every module has a **slide deck for projection**, made as a Slides artifact on claude.ai. The deck for module m01 is the worked example ([outline](../modules/m01-workflow-refresher/lecture/outline.md)).
+
+1. **One deck per lecture, matching the outline.** The deck follows `lecture/outline.md` section for section, with the same numbers, examples and wording of key statements. Each outline section heading ends with its slide numbers (`## §2 … (25 min) · slides 9–13`). A visual added to a slide (a chart, a small example) is added to the outline too, and an outline change is made in the deck in the same piece of work.
+2. **Link it in two places:** the `**Slides:**` line at the top of `lecture/outline.md`, and a *Lecture slides* row at the top of the materials table in the module README.
+3. **Course style (minimal, clean, professional).** Reuse the m01 deck's shared stylesheet unchanged:
+   * palette: background `#F6F5F0` (second tone `#ECEAE2`), ink `#17212B`, muted text `#4B5661`, accents green `#1E6B47` and amber `#A8560F`, dark statement slides `#15362A`;
+   * type: Inter for text and headings, JetBrains Mono for code; sizes 104 / 64 / 36 / 28 / 24 px;
+   * the course logo on the cover; a footer "040563107 · Module mNN" with the page number;
+   * one idea per slide; each section starts with its `§N` eyebrow; polls (misconception checks) on their own slides.
+4. **Speaker notes** say which outline section a slide comes from. Poll answers may go in the notes, so the deck's source files are kept in the private repository (`instructor/mNN-<topic>/slides/`), from which the deck can be republished.
+5. **Sharing:** a new artifact is private. Share it (view access) from its Share menu before giving the link to students or other staff.
+
+## 7. Finishing a module
 
 1. Fill in `EXECUTION-REPORT.md` (copy the pilot's sections).
-2. Change the status in the module README, in [`../modules/README.md`](../modules/README.md) and in [`../course/schedule.md`](../course/schedule.md) from *Planned* to *Built*.
-3. Have the lab trialled for timing (3 h), and record the result.
+2. Check that the slide deck matches `lecture/outline.md` (section by section, slide numbers in the headings) and is linked from both places.
+3. Change the status in the module README, in [`../modules/README.md`](../modules/README.md) and in [`../course/schedule.md`](../course/schedule.md) from *Planned* to *Built*.
+4. Have the lab trialled for timing (3 h), and record the result.

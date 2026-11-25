@@ -1,5 +1,7 @@
 # Lecture outline — Reproducible workflow, statistics refresher and SQL (module m01, week 1)
 
+**Slides:** [m01 lecture deck](https://claude.ai/artifact/Erv2PRZxAsxNxXpYNVXjMN) (34 slides, for projection). The deck and this outline match section for section; the slide numbers are given in each section heading. Change both together.
+
 **Length:** 2 hours, delivered in Thai with English slides and terms. **Lab:** [Lab 1](../lab/lab1_workflow_refresher.ipynb) (3-hour guided run-through, then redone as homework; practice).
 
 Every number in this outline was produced by the Lab 1 code and is the same in both CI environments (see [`../EXECUTION-REPORT.md`](../EXECUTION-REPORT.md)). Reference keys such as [Rul19] point to [`../references.md`](../references.md). The misconception checks (MC1–MC6) are in [`../exercises/misconception-checks.md`](../exercises/misconception-checks.md).
@@ -16,7 +18,7 @@ Every number in this outline was produced by the Lab 1 code and is the same in b
 
 ---
 
-## §1 How this course works (20 min)
+## §1 How this course works (20 min) · slides 3–8
 
 **What the course is for.** Methods that make high-dimensional, relational, temporal or large data analysable: dimension reduction (PCA, LDA, ICA), feature selection and extraction, network analysis, smoothing and aggregation, laptop-scale high-performance computing and streaming. The common thread is **valid evaluation**: every result is compared with a simple baseline, under a validation protocol that does not leak information, with an honest account of how it can fail.
 
@@ -42,7 +44,7 @@ Every number in this outline was produced by the Lab 1 code and is the same in b
 
 **AI policy** ([full text](../../../course/ai-policy.md)): AI tools are **allowed in labs and the project with disclosure** (the AI-use log at the end of every notebook), you must be able to explain any cell you submit, and examinations are without AI. Verification, not prompting, is the skill: "it looked right" is not verification.
 
-## §2 Notebooks as documents (25 min)
+## §2 Notebooks as documents (25 min) · slides 9–13
 
 **2.1 The notebook's hidden state.** A Jupyter/Colab kernel keeps every variable you created, in the order you **ran** cells, not the order they **appear**. So the same file can produce different results, or none, depending on its run history. A large study of public notebooks found that only a minority could be re-executed to reproduce their stored results [Pim19].
 
@@ -76,14 +78,14 @@ Two different defects: an **out-of-order dependency** (caught by *Restart and ru
 
 > **MC1** (hidden state) and **MC2** (restart and run all) here.
 
-## §3 Where data come from (10 min)
+## §3 Where data come from (10 min) · slides 14–15
 
 * Every dataset used in required work has a **verified licence**, a **citation** and either ships with scikit-learn or is downloaded with a **SHA-256 checksum** ([dataset policy](../../../datasets/README.md)). No Google Drive mounts, no Kaggle tokens.
 * `tsds.data.info("air_quality")` prints the licence and citation; `tsds.data.load("air_quality")` downloads the UCI file, checks its checksum and returns it **raw**.
 * **This week's data:** Air Quality, hourly averages from a chemical multisensor device in an Italian city, March 2004 – April 2005, 9,357 hours [DeV08; Vit08]. Licence CC BY 4.0, which requires attribution: cite the dataset whenever you use it.
 * For your project (M1): the proposal must name the dataset's licence and citation. "I found it on Kaggle" is not a licence.
 
-## §4 Statistics refresher (25 min)
+## §4 Statistics refresher (25 min) · slides 17–23 (slide 16: break)
 
 **4.1 Which mean?** The question decides the mean.
 
@@ -111,13 +113,13 @@ numpy and pandas have **different defaults**. For a sample, the $n-1$ divisor ma
 | Raw (−200 treated as data) | 9.78 °C | −200 °C |
 | After recoding −200 → NaN | 18.32 °C | −1.9 °C |
 
-Nothing raises an error: −200 is a perfectly good float. Defences: read the data documentation, and run **range checks** (`describe()`; an impossible minimum is a red flag) before any summary. After recoding, report **coverage**: the non-methane hydrocarbon column is 90.2% missing, CO 18.0%.
+Nothing raises an error: −200 is a perfectly good float. Defences: read the data documentation, and run **range checks** (`describe()`; an impossible minimum is a red flag) before any summary. After recoding, report **coverage**: the non-methane hydrocarbon column is 90.2% missing, CO 18.0%, temperature 3.9%.
 
 **4.4 Floating point.** `0.1 + 0.2 == 0.3` is `False` in binary floating point; `(x / 100).mean()` above gives `0.6299999999999999`. Compare decimals with `np.isclose`, never `==` [Gol91].
 
 > **MC3** (mean choice), **MC4** (`ddof`) and **MC5** (sentinels) here.
 
-## §5 SQL for statisticians (20 min)
+## §5 SQL for statisticians (20 min) · slides 24–28
 
 **Why SQL in a statistics course.** Most organisational data live in databases; SQL is how you get a correct summary out of them. DuckDB is an analytical SQL engine that runs inside Python, on a laptop or in Colab, directly on a pandas DataFrame, with no server [RM19]. In week 11 it returns as a tool for data larger than memory.
 
@@ -136,6 +138,8 @@ ORDER BY day;
 
 **5.2 NULL semantics.** `AVG(col)` and `COUNT(col)` **skip NULL**; `COUNT(*)` counts rows. pandas' `NaN` arrives in SQL as NULL. Writing `COUNT(*)` for "valid hours" silently counts missing hours as valid.
 
+A small made-up example: four hours with `co` = 2.0, NULL, 3.0, 4.0 give `COUNT(*)` = 4, `COUNT(co)` = 3 and `AVG(co)` = 3.0 (the mean of the three valid values).
+
 **5.3 Window functions.** A window function returns one value **per row**, computed from neighbouring rows, without collapsing groups:
 
 ```sql
@@ -148,7 +152,7 @@ This 24-row trailing mean equals pandas' `aq["co"].rolling(24, min_periods=1).me
 
 **5.4 Two methods as a test.** Computing the same summary in pandas and in SQL and checking they agree is one of the cheapest strong tests of an analysis.
 
-## §6 AI-assisted coding, and the lab (10 min)
+## §6 AI-assisted coding, and the lab (10 min) · slides 29–33 (slide 34: references)
 
 **Worked example (Lab 1 Part 5).** Asked "using `aq`, compute the daily mean CO concentration", an AI assistant answered:
 
