@@ -11,7 +11,7 @@ Modules are numbered by **topic sequence**, not by week (decision D7). Teaching 
 | [m05-lda-ica](m05-lda-ica/) | LDA and ICA | 1 | G3 | **Built** |
 | [m06-nonlinear-representations](m06-nonlinear-representations/) | Nonlinear and learned representations | 1 | — | **Built** (Thai-text segment waits for B20) |
 | [m07-networks](m07-networks/) | Network analysis | 2 | G4 (Lab 7B) | **Built** |
-| [m08-smoothing-temporal](m08-smoothing-temporal/) | Smoothing, aggregation, temporal evaluation | 1 | G5 | Planned |
+| [m08-smoothing-temporal](m08-smoothing-temporal/) | Smoothing, aggregation, temporal evaluation | 1 | G5 | **Built** |
 | [m09-hpc-laptop](m09-hpc-laptop/) | High-performance computing on a laptop | 1 | — | Planned |
 | [m10-streaming](m10-streaming/) | Streaming algorithms | 1 | G6 | Planned |
 | [m11-project-presentations](m11-project-presentations/) | Project presentations (adjustment week) | — | — | Planned |

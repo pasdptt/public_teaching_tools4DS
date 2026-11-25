@@ -322,7 +322,7 @@ A module is done when all of the following hold:
 | B10 | P1 | Midterm item bank (private) and marking keys | 3 or more variants per item type; keys verified by a second marker | B04, B06, B09 |
 | B11 | P2 — done 25 Nov 2026 (module m06, except the Thai-text segment, which waits for B20) | W8 nonlinear and learned representations (bounded) | M9 and M11 fixed; trustworthiness metric; time-capped CPU autoencoder | B04 |
 | B12 | P2 — done 25 Nov 2026 (module m07, graded lab G4) | W9–10 network analysis (with revised graph notes) | Directed weighted graph; null-model comparison; edge-split link prediction (fixes M19, M20, S6, E9) | B03 |
-| B13 | P2 | W11–12 smoothing, aggregation and temporal evaluation | Sentinel handling; LOESS and bandwidth selection; rolling-origin CV vs naive (fixes M14–M18, E8) | B03 |
+| B13 | P2 — done 25 Nov 2026 (module m08, graded lab G5) | W11–12 smoothing, aggregation and temporal evaluation | Sentinel handling; LOESS and bandwidth selection; rolling-origin CV vs naive (fixes M14–M18, E8) | B03 |
 | B14 | P2 | W13 HPC on a laptop | Benchmarks report time *and* memory; randomised SVD error vs time; runs within the free Colab memory limit | B02 |
 | B15 | P2 | W14 streaming algorithms | Sketch errors compared with exact answers across memory budgets; the Welford stability demonstration | B13 |
 | B16 | P2 | Final examination item bank (private) | Follows the §7.2 blueprint; no item reused verbatim from 2/2563–2/2564 | B10–B15 |

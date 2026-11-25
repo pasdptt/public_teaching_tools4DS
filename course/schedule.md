@@ -20,7 +20,7 @@
 | — | — | **Midterm examination**: covers weeks 1–6 (may be adjusted) | — | 20% | — | — |
 | 8 | [m07-networks](../modules/m07-networks/) | Network analysis I | [Lab 7A](../modules/m07-networks/lab/lab7a_graphs_paths.ipynb) | practice | — | **Built** |
 | 9 | [m07-networks](../modules/m07-networks/) | Network analysis II | [Lab 7B](../modules/m07-networks/lab/lab7b_centrality_communities.ipynb) | **G4** | — | **Built** |
-| 10 | [m08-smoothing-temporal](../modules/m08-smoothing-temporal/) | Smoothing, aggregation and temporal evaluation | Lab 8 | **G5** (AI-audit task) | **M3** method comparison | Planned |
+| 10 | [m08-smoothing-temporal](../modules/m08-smoothing-temporal/) | Smoothing, aggregation and temporal evaluation | [Lab 8](../modules/m08-smoothing-temporal/lab/lab8_smoothing_temporal.ipynb) | **G5** (AI-audit task) | **M3** method comparison | **Built** |
 | 11 | [m09-hpc-laptop](../modules/m09-hpc-laptop/) | High-performance computing on a laptop | Lab 9 | practice | — | Planned |
 | 12 | [m10-streaming](../modules/m10-streaming/) | Streaming algorithms | Lab 10 | **G6** | **M4** report and repository (end of week) | Planned |
 | A1 | — | Adjustment: holiday or catch-up (place where the calendar needs it) | — | — | — | — |
